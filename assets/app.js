@@ -32,12 +32,15 @@
     ['index', 'index.html', 'Morning Gradient'],
     ['brew-today', 'brew-today.html', '冲煮日记'],
     ['brews', 'brews.html', '全部记录'],
-    ['gear', 'gear.html', '装备']
+    ['gear', 'gear.html', '装备'],
+    ['research', 'research.html', '市场研究']
   ];
   document.getElementById('nav').innerHTML = `<div class="wrap">
     <a class="brand" href="index.html">${esc(D.meta.title)}</a>
     <ul>${pages.map(([k, href, label]) => `<li><a href="${href}" class="${k === 'gear' ? 'gear-link' : ''}${k === page ? ' active' : ''}"${k === page ? ' aria-current="page"' : ''}>${label}</a></li>`).join('')}</ul></div>`;
   document.getElementById('foot').innerHTML = `${esc(D.meta.title)} · ${esc(D.meta.subtitle || '')} · 最后更新 ${esc(D.meta.updated)} · <a href="about.html"${page === 'about' ? ' aria-current="page"' : ''}>关于（记录方法 · 更新日志）</a>`;
+
+  if (page === 'research') document.getElementById('foot').insertAdjacentHTML('beforeend', ' <span>本页风格：Hermes Design · 致敬 <a href="https://nousresearch.com">Nous Research</a> 的 Hermes / LENS 设计系统。字体：JetBrains Mono（OFL）+ 系统中文字体。</span>');
 
   const pageHead = (title, sub) => `<header class="brandhead"><h1>${title}</h1>${sub ? `<p>${sub}</p>` : ''}</header>`;
 
@@ -214,5 +217,65 @@
     ${sec('changelog', '更新日志', '', `<div class="card"><ul class="cl">${D.changelog.map(c => `<li><span class="date">${c.date}</span><ul>${c.items.map(i => `<li>${H(i)}</li>`).join('')}</ul></li>`).join('')}</ul></div>`)}`;
   }
 
-  ({ index: renderIndex, 'brew-today': renderBrewToday, brews: renderBrews, gear: renderGear, about: renderAbout }[page] || renderIndex)();
+
+  /* ---------- research (Hermes Design skin; homage to Nous Research) ---------- */
+  function renderResearch() {
+    const R = D.research;
+    if (!R) { app.innerHTML = '<p style="padding:40px 0">data.js 里没有 research 数据。</p>'; return; }
+    const S = {}; (R.sources || []).forEach(x => { S[x.id] = x; });
+    const refA = id => S[id] ? `<sup class="ref"><a href="${esc(S[id].url)}" title="${esc(S[id].label)}">${esc(id)}</a></sup>` : '';
+    const rt = s => inline(s).replace(/\[((?:S|X)\d+)\]/g, (m, id) => refA(id) || m);
+    const refs = ids => (ids || []).map(refA).join('');
+    const arc = '<span class="arc-border" aria-hidden="true"></span>';
+    const hsec = (id, n, en, zh, body) => `<section class="h-sec" id="${id}" aria-labelledby="${id}-h"><header><span class="num">${n} · ${en}</span><h2 id="${id}-h">${zh}</h2></header>${body}</section>`;
+    const P = R.players || [];
+    app.innerHTML = `
+    <header class="h-hero">
+      <div class="eyebrow">◆ ${esc(R.kicker)}</div>
+      <h1>${esc(R.title)}<span class="blink" aria-hidden="true"></span></h1>
+      <p class="lede">${rt(R.lede)}</p>
+      <div class="h-meta">
+        <span><span class="k">Date</span>${esc(R.date)} ET</span>
+        <span><span class="k">Players</span>${P.length}</span>
+        <span><span class="k">Sources</span>${(R.sources || []).length}</span>
+        ${R.notion ? `<span><span class="k">Notion</span><a href="${esc(R.notion)}">Market Notes ↗</a></span>` : ''}
+        <span class="theme-cell"><span class="k">Theme</span><button class="h-toggle" type="button" aria-label="切换主题" onclick="toggleLens()"><span class="h-knob"></span></button></span>
+      </div>
+      <p class="method">${rt(R.method)}</p>
+    </header>
+    ${hsec('findings', '01', 'Key findings', '关键发现', `<ol class="find">${R.findings.map(f => `<li><div>${rt(f)}</div></li>`).join('')}</ol>`)}
+    ${hsec('players', '02', 'Players', '玩家：谁在做', `
+      <div class="tbl"><table><thead><tr><th>产品</th><th>类型</th><th>价格（USD）</th><th>磨豆机</th><th>出杯量</th><th>豆仓 / 生态</th><th>联网</th><th>来源</th></tr></thead><tbody>
+      ${P.map(p => `<tr><td>${esc(p.name)}</td><td>${esc(p.kind)}</td><td class="mono">${esc(p.price)}</td><td>${esc(p.grinder)}</td><td>${esc(p.cups)}</td><td>${esc(p.pods)}</td><td>${esc(p.connect)}</td><td>${refs(p.src)}</td></tr>`).join('')}
+      </tbody></table></div>
+      <h3>逐台看</h3>
+      <div class="grid g3">${P.map((p, i) => `<article class="card${i === 0 ? ' on' : ''}">${arc}
+        <div class="p-name">${esc(p.name)}</div><span class="p-kind">${esc(p.kind)}</span>
+        <div class="p-price">${esc(p.price)}</div><div class="p-maker">${esc(p.maker)}</div>
+        <dl class="spec"><dt>上市</dt><dd>${esc(p.launch)}</dd><dt>磨豆</dt><dd>${esc(p.grinder)}</dd><dt>联网</dt><dd>${esc(p.connect)}</dd></dl>
+        <ul>${(p.notes || []).map(n => `<li>${rt(n)}</li>`).join('')}</ul>
+        <div class="srcs">SRC ${refs(p.src)}</div></article>`).join('')}</div>
+      <p style="margin-top:18px;font-size:14px">${rt(R.others)}</p>`)}
+    ${hsec('groups', '03', 'User groups', '核心用户群', `<div class="grid g3">${R.groups.map(g => `<article class="card">${arc}
+        <div class="p-name">${esc(g.who)}</div><p style="margin:8px 0 10px">${rt(g.want)}</p>
+        <dl class="spec"><dt>产品</dt><dd>${esc(g.fit)}</dd></dl><p style="font-size:13.5px">${rt(g.why)}</p>
+        <div class="srcs">SRC ${refs(g.src)}</div></article>`).join('')}</div>`)}
+    ${hsec('competition', '04', 'Landscape', '竞争格局', `
+      <h3 style="margin-top:0">价格档位</h3>
+      <div class="grid g4">${R.tiers.map((t, i) => { const [a, b] = String(t.tier).split(' · '); return `<article class="card tier${i === 1 ? ' on' : ''}">${arc}
+        <div class="lab">${esc(a)}</div><div class="t-price">${esc(b || '')}</div><p>${rt(t.items)}</p><div class="srcs">SRC ${refs(t.src)}</div></article>`; }).join('')}</div>
+      <h3>五条分界线</h3><ol class="axes">${R.axes.map(a => `<li><div>${rt(a)}</div></li>`).join('')}</ol>
+      <h3>中国 vs 美国</h3><ul class="plain">${R.chinaUS.map(c => `<li>${rt(c)}</li>`).join('')}</ul>`)}
+    ${hsec('feedback', '05', 'Product feedback', '产品细节与用户反馈', `<div class="grid g2">${R.feedback.map(f => `<article class="card fb">${arc}
+        <h4>${esc(f.product)}</h4>
+        <div class="lab">+ 好评</div><ul>${f.pros.map(x => `<li>${rt(x)}</li>`).join('')}</ul>
+        <div class="lab neg">− 差评 / 风险</div><ul>${f.cons.map(x => `<li>${rt(x)}</li>`).join('')}</ul></article>`).join('')}</div>`)}
+    ${hsec('takeaways', '06', 'For 豪力', '给豪力的结论', `<ol class="take">${R.takeaways.map(t => `<li><div class="card">${arc}<p>${rt(t)}</p></div></li>`).join('')}</ol>`)}
+    ${hsec('sources', '07', 'Sources', '来源与可靠度', `<p style="font-size:14px;margin-bottom:14px">可靠度分级：高 = 行业媒体或专业实测；中高 = 官方规格或上手评测；中 = 公关稿、单个用户或联盟站；低 = 个人社交帖子。</p>
+      <div class="tbl"><table style="min-width:720px"><thead><tr><th>编号</th><th>来源</th><th>可靠度 · 理由</th></tr></thead><tbody>
+      ${R.sources.map(x => { const [lv, ...why] = String(x.rel).split(' · '); return `<tr id="src-${esc(x.id)}"><td class="mono">${esc(x.id)}</td><td><a href="${esc(x.url)}">${esc(x.label)}</a></td><td><span class="rel">${esc(lv)}</span> · ${esc(why.join(' · '))}</td></tr>`; }).join('')}
+      </tbody></table></div>`)}`;
+  }
+
+  ({ index: renderIndex, 'brew-today': renderBrewToday, brews: renderBrews, gear: renderGear, about: renderAbout, research: renderResearch }[page] || renderIndex)();
 })();

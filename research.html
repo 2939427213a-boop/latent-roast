@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="day">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>市场研究 · Latent Roast</title>
+<meta name="description" content="全自动手冲咖啡机市场研究（2026-10）：玩家、用户群、竞争格局、用户反馈。">
+<link rel="stylesheet" href="assets/hermes.css">
+<script>
+/* Hermes LENS: LENS_5I (day, default) <-> LENS_0 (night). Homage to Nous Research. */
+function applyLens(p){var r=document.documentElement.style;
+  r.setProperty('--background','color-mix(in srgb,'+p.bg+' 100%,transparent)');r.setProperty('--background-base',p.bg);
+  r.setProperty('--midground','color-mix(in srgb,'+p.mg+' 100%,transparent)');r.setProperty('--midground-base',p.mg);
+  r.setProperty('--foreground-alpha',p.fgA);r.setProperty('--foreground','color-mix(in srgb,#ffffff '+(p.fgA*100)+'%,transparent)');
+  r.setProperty('--component-backdrop-bg-blend-mode',p.blend);
+  var t=document.querySelector('.h-toggle');if(t)t.setAttribute('aria-label',p.fgA?'切换到夜间主题':'切换到日间主题');}
+var LENS_0={bg:'#041C1C',mg:'#ffe6cb',fgA:0,blend:'difference'};
+var LENS_5I={bg:'#170d02',mg:'#FFAC02',fgA:1,blend:'multiply'};
+function toggleLens(){var night=document.documentElement.dataset.theme==='night';
+  document.documentElement.dataset.theme=night?'day':'night';applyLens(night?LENS_5I:LENS_0);
+  try{localStorage.setItem('hermes-theme',document.documentElement.dataset.theme)}catch(e){}}
+(function(){var s;try{s=localStorage.getItem('hermes-theme')}catch(e){}var night=s==='night';
+  document.documentElement.dataset.theme=night?'night':'day';applyLens(night?LENS_0:LENS_5I);})();
+</script>
+</head>
+<body data-page="research">
+<div class="hermes-bg" aria-hidden="true">
+  <div class="bg-l1"></div>
+  <img class="bg-l2" src="assets/hermes/filler-bg0.webp" alt="">
+  <div class="bg-l99"></div>
+  <div class="bg-l200"></div>
+  <div class="bg-l201"></div>
+</div>
+<a class="skip" href="#app">跳到正文</a>
+<nav id="nav" aria-label="页面导航"></nav>
+<main class="wrap" id="app">
+  <noscript><p style="padding:40px 0">请开启 JavaScript。这个页面需要 JavaScript 才能显示内容（内容在 data/data.js）。</p></noscript>
+</main>
+<footer class="wrap" id="foot"></footer>
+<script src="data/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

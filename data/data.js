@@ -543,6 +543,14 @@ window.LR_DATA = {
     {
       "date": "2026-10-03",
       "items": [
+        "新增页面「市场研究」（research.html）：全自动手冲咖啡机市场研究。",
+        "这个页面使用 Hermes Design 风格（致敬 Nous Research）。其他页面保持原样。",
+        "Notion 新增「市场研究 · Market Notes」库。报告全文也写在那里。"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "items": [
         "推送 Morning Gradient 第 1 课 EX1「偏酸 = 萃取不足？」。",
         "配图：images/2026-10-03.png（方向 A 水彩插画）。",
         "今日冲煮计划仍是第 2 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。"
@@ -607,5 +615,602 @@ window.LR_DATA = {
         "初版：装备到齐汇报、第一杯配方、装备指南、记录方法研究。"
       ]
     }
-  ]
+  ],
+  "research": {
+    "title": "全自动手冲咖啡机 · 市场研究",
+    "kicker": "MARKET NOTES · 001 · AUTO POUR-OVER",
+    "date": "2026-10-03",
+    "notion": "https://app.notion.com/p/3ee5c472f0c581118c4be6316370bf73",
+    "lede": "2026 年 9 月，两家大公司进入了全自动手冲机市场。Cosori 在 9 月 10 日发布 Juni。Breville 在 9 月最后一周发布 Spiral Luxe。这份报告整理了主要玩家、用户群、竞争格局和用户反馈。每个数字都附来源链接和可靠度。",
+    "method": "研究时间：2026-10-03（ET）。来源：行业媒体、官网、上手评测、X 帖子。Reddit 和京东商品页拦截了抓取，所以本报告不引用它们的原帖。没有找到可靠的销量或市场份额数据，所以本报告不写市场规模。",
+    "findings": [
+      "**品类正在升温。** 2026 年 9 月有两家大家电公司入场：Cosori Juni（9/10，$299.99 起）和 Breville Spiral Luxe（9 月底，$599.95）。[S11][S1]",
+      "**$600 是主战场。** xBloom Studio（$599）和 Spiral Luxe（$599.95）都内置磨豆机，价格几乎相同。[S5][S1]",
+      "**两家的路线不同。** xBloom 是单杯、蓝牙 App、有 xPod 豆仓生态。Spiral Luxe 不联网，出 20 oz 一壶，靠按键和屏幕操作。[S5][S1]",
+      "**$300–$450 是入门档。** Cosori Juni 不带磨豆机。Gevi BrewOne 带 60 mm 平刀，官网现价 $449。[S11][S17]",
+      "**xBloom 有中国背景。** 创始团队来自 Apple。种子轮 1500 万美元来自中国投资方。国内以“钢琴师”名称销售，一位用户 2024 年花 3888 元购入。[S8][S10]",
+      "**可靠性是最大风险。** Gevi 有水量传感器故障的用户报告。xBloom 评测提到学习曲线和单次最多 25 g 粉。[X3][S7]",
+      "**Spiral Luxe 还没有真实用户反馈。** 截至 10/3，X 上只有发布类帖子。建议等 4–8 周的独立评测再判断。[X6]",
+      "**商用端已成熟。** 布鲁克林的 Poursteady 在 SCA 2015 获最佳新品，零售价 $7,875 起。[S20][S21]"
+    ],
+    "players": [
+      {
+        "name": "Breville Spiral Luxe",
+        "maker": "Breville Group（悉尼；旗下有 Baratza、Lelit）",
+        "kind": "大公司",
+        "price": "$599.95",
+        "launch": "2026-09（Breville 官网、Williams Sonoma）",
+        "grinder": "内置 40 mm 平刀，无级调节",
+        "cups": "一壶 20 oz（约 590 ml）",
+        "pods": "无豆仓生态；可用预磨粉",
+        "connect": "不联网（无 Wi-Fi / 蓝牙）",
+        "notes": [
+          "喷嘴按螺旋路径移动注水。",
+          "可调粉水比、水温、注水段数和停顿。",
+          "水温只有 3 档：190 / 198 / 205 °F（约 88 / 92 / 96 °C）。",
+          "按粉水比算粉重，再按时间定量研磨。"
+        ],
+        "src": [
+          "S1",
+          "S3"
+        ]
+      },
+      {
+        "name": "xBloom Studio",
+        "maker": "TBDx Inc（2021 年成立于硅谷）",
+        "kind": "创业公司",
+        "price": "$599（国内约 3888 元）",
+        "launch": "初代 2022；Studio 现售",
+        "grinder": "内置 48 mm 锥刀，80 档，每档 18.75 μm",
+        "cups": "单杯 8–11 oz；最多 25 g 粉",
+        "pods": "xPod 整豆豆仓 + NFC 配方卡；也可用自己的豆",
+        "connect": "蓝牙 5.0 + App",
+        "notes": [
+          "内置秤，精度 0.1 g。",
+          "注水方式：中心、绕圈、螺旋。",
+          "水箱 946 ml；可接水管。",
+          "xPod 8 颗装 $17–28。"
+        ],
+        "src": [
+          "S5",
+          "S6",
+          "S7",
+          "S10"
+        ]
+      },
+      {
+        "name": "Cosori Juni",
+        "maker": "Cosori（VeSync 旗下，加州 Tustin）",
+        "kind": "大公司",
+        "price": "$299.99（玻璃壶）/ $349.99（不锈钢壶）",
+        "launch": "2026-09-10",
+        "grinder": "无",
+        "cups": "锥形篮最多 600 ml；平底篮最多 1.5 L",
+        "pods": "无",
+        "connect": "VeSync App；扫豆袋生成 AI 配方",
+        "notes": [
+          "篮子旋转，喷嘴移动，做 360° 螺旋注水。",
+          "水温 80–96 °C。",
+          "可选震动，注水前整平粉层。",
+          "SCA 认证；2026 红点奖。"
+        ],
+        "src": [
+          "S11",
+          "S12"
+        ]
+      },
+      {
+        "name": "Fellow Aiden",
+        "maker": "Fellow（旧金山）",
+        "kind": "专业品牌",
+        "price": "$399.95",
+        "launch": "现售",
+        "grinder": "无",
+        "cups": "单杯到 10 杯（1.5 L）",
+        "pods": "无；Fellow Drops 按周推豆，配方自动同步",
+        "connect": "App（预约、配方、固件）",
+        "notes": [
+          "双淋水头，不是移动喷嘴。",
+          "可调闷蒸和脉冲注水。",
+          "SCA 认证。",
+          "保温壶 1 小时后实测 160.9 °F（约 71.6 °C）。"
+        ],
+        "src": [
+          "S13",
+          "S14"
+        ]
+      },
+      {
+        "name": "Gevi BrewOne 4-in-1",
+        "maker": "Gevi（中国制造）",
+        "kind": "专业品牌",
+        "price": "$449（官网促销；原价 $699.99）",
+        "launch": "2021 年起",
+        "grinder": "内置 60 mm 平刀，51 档",
+        "cups": "1–4 杯；水箱 640 ml",
+        "pods": "无",
+        "connect": "触屏；配方可保存和分享",
+        "notes": [
+          "内置秤，精度 0.1 g。",
+          "三个旋转出水口。",
+          "研磨、称重、烧水、冲煮四合一。",
+          "2021 红点奖。"
+        ],
+        "src": [
+          "S17",
+          "S18"
+        ]
+      },
+      {
+        "name": "Hiroia Hikaru",
+        "maker": "Hiroia（台湾；最初是 Hario 参与的合资公司）",
+        "kind": "专业品牌",
+        "price": "$799",
+        "launch": "2023",
+        "grinder": "无",
+        "cups": "最多 3 杯；水箱 700 ml",
+        "pods": "无",
+        "connect": "蓝牙 5.2 + App；二维码分享配方",
+        "notes": [
+          "中心淋水头，5 个出水孔，不绕圈。",
+          "10 档流速：3–12 ml/s。",
+          "水温 80–96 °C。",
+          "内置秤；附 V60 滤杯。"
+        ],
+        "src": [
+          "S15",
+          "S1"
+        ]
+      },
+      {
+        "name": "Ratio Eight S2",
+        "maker": "Ratio（美国）",
+        "kind": "专业品牌（相邻品类）",
+        "price": "$699",
+        "launch": "现售",
+        "grinder": "无",
+        "cups": "最多 40 oz（约 1.2 L）",
+        "pods": "无",
+        "connect": "无；一键两档配方",
+        "notes": [
+          "这是设计型滴滤机，不是移动喷嘴。",
+          "实木、手吹玻璃、不锈钢水路。",
+          "放在这里做审美参照。"
+        ],
+        "src": [
+          "S19"
+        ]
+      },
+      {
+        "name": "Poursteady PS1 / PS2",
+        "maker": "Steady Equipment（纽约布鲁克林）",
+        "kind": "商用",
+        "price": "PS2 $7,875 起；PS1 5 杯 $12,508 起",
+        "launch": "PS1 获 SCA 2015 最佳新品",
+        "grinder": "无",
+        "cups": "同时冲 2–5 杯；约每分钟 1 杯",
+        "pods": "无",
+        "connect": "Wi-Fi / 以太网；Web App 同步配方",
+        "notes": [
+          "需要台下锅炉。",
+          "面向咖啡馆。"
+        ],
+        "src": [
+          "S20",
+          "S21"
+        ]
+      },
+      {
+        "name": "Hiroia Samantha II",
+        "maker": "Hiroia（台湾）",
+        "kind": "商用",
+        "price": "$1,599",
+        "launch": "现售",
+        "grinder": "无",
+        "cups": "商用单头",
+        "pods": "无",
+        "connect": "蓝牙 + Wi-Fi；云端管理多台",
+        "notes": [
+          "自动进水和排水。",
+          "15 档流速：2–16 ml/s。",
+          "App 只支持 iOS。"
+        ],
+        "src": [
+          "S16"
+        ]
+      },
+      {
+        "name": "百胜图 Barsetto O2（BAP-O2）",
+        "maker": "百胜图（广东）",
+        "kind": "国内品牌",
+        "price": "未核实（京东页无法打开）",
+        "launch": "2022 年获红顶奖提名",
+        "grinder": "内置 60 mm 镀钛刀盘",
+        "cups": "未核实",
+        "pods": "无",
+        "connect": "Wi-Fi + 小程序分享配方",
+        "notes": [
+          "三条水柱，360° 环绕注水。",
+          "世界冲煮冠军杜嘉宁代言。"
+        ],
+        "src": [
+          "S22"
+        ]
+      }
+    ],
+    "others": "还有三个已确认存在的玩家：Hario Smart 7（2016，品类早期产品）、韩国 iRhea（商用）、Hiroia 初代 Samantha（2018，台湾）。来源：[S1]。本报告没有核实它们的现价。",
+    "groups": [
+      {
+        "who": "忙碌的手冲爱好者",
+        "want": "要手冲的味道，但早上没时间。",
+        "fit": "Spiral Luxe、xBloom Studio",
+        "why": "Breville 公开把这群人列为第一目标。两台都内置磨豆机，省掉最慢的一步。",
+        "src": [
+          "S1"
+        ]
+      },
+      {
+        "who": "胶囊机升级用户",
+        "want": "要一键方便，也要现磨精品豆。",
+        "fit": "xBloom（xPod）、Spiral Luxe",
+        "why": "xPod 把烘焙商的配方写进 NFC 卡。Breville 也点名这群人。",
+        "src": [
+          "S1",
+          "S6"
+        ]
+      },
+      {
+        "who": "探索型单杯用户",
+        "want": "每天换豆，想认识新烘焙商。",
+        "fit": "xBloom Studio",
+        "why": "xPod 来自多家美国精品烘焙商，CoffeeGeek 称它是好的“季节性探索服务”。",
+        "src": [
+          "S6"
+        ]
+      },
+      {
+        "who": "家庭 / 多人",
+        "want": "一次冲一壶，价格敏感。",
+        "fit": "Cosori Juni、Fellow Aiden",
+        "why": "Juni 最多 1.5 L，$299.99 起。Aiden 单杯到 10 杯。",
+        "src": [
+          "S11",
+          "S13"
+        ]
+      },
+      {
+        "who": "参数玩家",
+        "want": "要逐段控制流速、水温和停顿。",
+        "fit": "Gevi BrewOne、Hiroia Hikaru、xBloom App",
+        "why": "Gevi 有实时 Barista Mode。Hikaru 有 10 档流速和自建配方。",
+        "src": [
+          "S18",
+          "S15"
+        ]
+      },
+      {
+        "who": "咖啡馆 / 酒店 / 办公室",
+        "want": "稳定出杯，减少培训。",
+        "fit": "Poursteady、Samantha II、iRhea",
+        "why": "这些机器支持多头同冲、云端同步和自动进水。",
+        "src": [
+          "S20",
+          "S16",
+          "S1"
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "tier": "入门 · $300–$450",
+        "items": "Cosori Juni $299.99 / $349.99 · Fellow Aiden $399.95 · Gevi BrewOne $449（促销）",
+        "src": [
+          "S11",
+          "S13",
+          "S17"
+        ]
+      },
+      {
+        "tier": "主战场 · ~$600（内置磨豆）",
+        "items": "xBloom Studio $599 · Breville Spiral Luxe $599.95",
+        "src": [
+          "S5",
+          "S1"
+        ]
+      },
+      {
+        "tier": "设计 / 纯粹 · $700–$800",
+        "items": "Ratio Eight S2 $699（相邻品类）· Hiroia Hikaru $799",
+        "src": [
+          "S19",
+          "S15"
+        ]
+      },
+      {
+        "tier": "商用 · $1,599 起",
+        "items": "Samantha II $1,599 · Poursteady PS2 $7,875 起 · PS1 5 杯 $12,508 起",
+        "src": [
+          "S16",
+          "S21"
+        ]
+      }
+    ],
+    "axes": [
+      "**磨豆机：内置 vs 不内置。** 内置的有 xBloom、Spiral Luxe、Gevi、百胜图 O2。不内置的有 Juni、Aiden、Hikaru。内置磨豆机让价格跳到 $450–$600。",
+      "**出杯量：单杯 vs 一壶。** xBloom 只做单杯（最多 25 g 粉）。Spiral Luxe 出 20 oz。Juni 和 Aiden 能出 1.5 L。",
+      "**生态：豆仓 vs 开放。** 只有 xBloom 有 xPod 豆仓生态。它仍然允许用自己的豆和 Kalita Wave 155 滤纸。Fellow 用 Drops 推豆，但不锁定。",
+      "**联网：App / AI vs 离线。** Juni 主打 AI 配方和口味反馈。xBloom 和 Aiden 靠 App 编配方。Spiral Luxe 完全离线，只在本机保存配方。",
+      "**注水方式：移动喷嘴 vs 淋水头。** Spiral Luxe、xBloom、Juni、Gevi 模仿人手绕圈。Hikaru 和 Aiden 用固定淋水头。Hiroia 认为绕圈容易注水不均。"
+    ],
+    "chinaUS": [
+      "**美国市场：大公司靠渠道。** Breville 在自家官网和 Williams Sonoma 销售。Cosori 先在官网卖，之后上 Amazon。Fellow Aiden 在官网销售，并附 $25 的 Fellow Drops 咖啡额度。[S1][S11][S13]",
+      "**xBloom：美国公司，中国资本。** TBDx 总部在旧金山湾区。2022 年种子轮 1500 万美元来自一组中国投资方。首批 11 家烘焙商里有 1 家在中国。[S8]",
+      "**中国市场：xBloom 以“钢琴师”销售。** 京东有 FW-02C 型号页（本次无法打开）。数字尾巴一位用户 2024 年自费 3888 元购入。他建议用自己的豆，不建议买鲜豆杯，原因是口味少、成本高。[S10]",
+      "**国内竞品：百胜图 O2。** 它把研磨、称重和冲煮做成一体，有 Wi-Fi 小程序。官方称它获红点奖和红顶奖提名。现价没有核实。[S22]",
+      "**X 上的地域信号。** xBloom 的 X 讨论大量来自海湾地区（科威特、沙特）和日本。日本有用户通过租赁试用。这些是个人帖子，只能当作信号。[X2][X9][X10]",
+      "**缺口。** 本次没有找到可靠的中国或美国销量 / 份额数据。“xBloom 在中国很大”这一说法，本报告无法用公开数据证实。"
+    ],
+    "feedback": [
+      {
+        "product": "xBloom Studio",
+        "pros": [
+          "CoffeeGeek：出杯达到“比赛级”；三个预设可一键出杯，不用手机。[S6]",
+          "Tom's Guide：App 很好；秤很灵敏；磨豆机能力强。[S7]",
+          "国内用户：不懂手冲也能喝到满意的一杯。[S10]"
+        ],
+        "cons": [
+          "Tom's Guide：三个旋钮没有标签，上手有学习曲线；单次最多 25 g 粉，不适合一壶。[S7]",
+          "CoffeeGeek：水箱小；磨豆机磨不到意式细度。Tom's Guide 的结论相反：能磨意式，但流速偏快。[S6][S7]",
+          "韩国用户：配方最多 9 段注水，10 段配方要改写。[X1]"
+        ]
+      },
+      {
+        "product": "Breville Spiral Luxe",
+        "pros": [
+          "Engadget 称它是“明显高端”的厨房电器。这是发布新闻，不是实测。[S3]",
+          "40 mm 小刀盘是有意的取舍，目的是缩小机身。[S1]"
+        ],
+        "cons": [
+          "截至 10/3，X 上只有发布帖（如 @kotecinho 9/30 的帖子约 1.2 万次浏览），没有真实用户反馈。[X6]",
+          "水温只有 3 档。按时间定量研磨，不是称重定量。[S1]",
+          "Engadget：更便宜的机器也能做得不错，只是没有螺旋注水和内置磨豆。[S3]"
+        ]
+      },
+      {
+        "product": "Cosori Juni",
+        "pros": [
+          "功能最多的入门款：AI 配方、震动整粉、1.5 L 大容量。[S11]",
+          "海湾地区用户称它是“更便宜的 xBloom 竞品”。[X7]"
+        ],
+        "cons": [
+          "T3 质疑手冲机是否需要 AI。T3 只写了新闻，没有实测。[S12]",
+          "不带磨豆机。真实口味评测还很少。"
+        ]
+      },
+      {
+        "product": "Fellow Aiden",
+        "pros": [
+          "Yahoo 实测：使用简单，口感饱满，单杯到 10 杯都行。[S14]",
+          "X 用户：用了一年以上，出杯稳定。[X5]"
+        ],
+        "cons": [
+          "Yahoo 实测：保温壶 1 小时后只有 160.9 °F，是测试过的机器里最低；机身大多是塑料。[S14]",
+          "X 用户：不想让热水接触大量塑料，换成了 Ratio Eight。[X4]"
+        ]
+      },
+      {
+        "product": "Gevi BrewOne",
+        "pros": [
+          "Coffeeness：可编程程度高；平刀出色；适合极客。[S18]",
+          "官网评论：客服响应快。官网评论由品牌托管，可靠度偏低。[S17]"
+        ],
+        "cons": [
+          "日本用户：水量传感器故障导致机器无法使用，换传感器后恢复；他称这是该机型的“老毛病”。[X3]",
+          "官网评论：有人遇到水位读取失败、磨豆机故障；有人说出水碰不到粉层边缘，中间冲出坑。[S17]",
+          "Coffeeness：学习曲线陡。[S18]"
+        ]
+      },
+      {
+        "product": "Hiroia Hikaru",
+        "pros": [
+          "官方：中心淋水头 + 变流速，避免绕圈不均。[S15]",
+          "X 用户：自动机清洁频繁，他推荐 Hikaru 这类更简单的机器。[X8]"
+        ],
+        "cons": [
+          "$799 且不带磨豆机。真实用户反馈很少。"
+        ]
+      }
+    ],
+    "takeaways": [
+      "**先想清楚要省哪一步。** 你现在用 S3 手摇磨。每天最费时的是手摇研磨，不是注水。只有内置磨豆机的机器（xBloom、Spiral Luxe）能省掉这一步。",
+      "**你的口味需要低水温选项。** 你喜欢低酸、丝滑、偏深烘。Spiral Luxe 只有 88 / 92 / 96 °C 三档。Juni、Hikaru 支持 80–96 °C。xBloom 可在 App 里逐段设水温。",
+      "**单杯选 xBloom，一壶选 Spiral Luxe。** xBloom 单次最多 25 g 粉。Spiral Luxe 出 20 oz。你一杯用 30 g 粉，超过了 xBloom 的上限。",
+      "**Spiral Luxe 先观望。** 它 9 月底才发布。等 4–8 周的独立评测和用户反馈，再决定。",
+      "**审美上值得看三台。** Ratio Eight S2（实木 + 手吹玻璃）、xBloom 鼠尾草绿 + 金色款、Fellow Aiden（极简立方体）。",
+      "**本地可看商用机。** Poursteady 在布鲁克林。纽约的精品咖啡馆可能在用它，可以去喝一杯作对照。",
+      "**这是一个好的内容选题。** 品类在 9 月升温，中文深度对比很少。Latent Roast 可以做一期“自动手冲 vs S3 手冲”的盲测记录。"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "label": "Daily Coffee News · Breville Enters the Automated Pourover Stream（2026-09-30）",
+        "url": "https://dailycoffeenews.com/2026/09/30/breville-enters-the-automated-pourover-stream-with-the-spiral-luxe-brewer/",
+        "rel": "高 · 行业媒体（Roast Magazine），有 Breville 采访原话和品类历史"
+      },
+      {
+        "id": "S2",
+        "label": "Daily Coffee News · Weekly Coffee News（2026-10-02）",
+        "url": "https://dailycoffeenews.com/2026/10/02/weekly-coffee-news-marketplace-launches-dollys-new-coffee-commercial/",
+        "rel": "高 · 你给的线索；确认了 $599.95 和发布"
+      },
+      {
+        "id": "S3",
+        "label": "Engadget · Breville's New $600 Coffee Machine（2026-09-30）",
+        "url": "https://www.engadget.com/2273802/brevilles-new-600-coffee-machine-makes-pour-overs-from-scratch/",
+        "rel": "中高 · 科技媒体，基于厂商资料，未上手"
+      },
+      {
+        "id": "S5",
+        "label": "xBloom Studio 官网产品页",
+        "url": "https://xbloom.com/pages/xbloom-studio",
+        "rel": "中高 · 官方规格可信；口味说法是营销"
+      },
+      {
+        "id": "S6",
+        "label": "CoffeeGeek · xBloom Studio: Competition-Level Pour Over on Autopilot（2026-07-03）",
+        "url": "https://coffeegeek.com/blog/new-products/xbloom-studio-competition-level-pour-over-on-autopilot/",
+        "rel": "高 · 专业器具媒体，上手初评；完整评测未发布"
+      },
+      {
+        "id": "S7",
+        "label": "Tom's Guide · xBloom Studio review（2025-11-12）",
+        "url": "https://www.tomsguide.com/home/coffee-makers/xbloom-studio-coffee-maker-review",
+        "rel": "中高 · 数月上手；样机由英国经销商提供"
+      },
+      {
+        "id": "S8",
+        "label": "Daily Coffee News · The Forthcoming xBloom（2022-10-12）",
+        "url": "https://dailycoffeenews.com/2022/10/12/the-forthcoming-xbloom-automates-single-serve-brews-based-on-roasters-specifications/",
+        "rel": "高 · 公司背景、创始人和融资；数据截至 2022"
+      },
+      {
+        "id": "S10",
+        "label": "数字尾巴 · 沉浸式体验 xBloom Studio（2024-08-13）",
+        "url": "https://www.dgtle.com/article-1707872-1.html",
+        "rel": "中 · 单个国内用户自费购买；价格是 2024 年的"
+      },
+      {
+        "id": "S11",
+        "label": "PR Newswire · Cosori Juni 发布（2026-09-10）",
+        "url": "https://www.prnewswire.com/news-releases/now-available-cosori-brings-precision-engineering-to-specialty-coffee-with-juni-its-premium-automatic-pour-over-coffee-machine-302874802.html",
+        "rel": "中高 · 官方新闻稿；规格和价格可信，口味说法是营销"
+      },
+      {
+        "id": "S12",
+        "label": "T3 · Cosori's new drip coffee machine（2026-09-14）",
+        "url": "https://www.t3.com/home-living/coffee-machines/cosoris-new-drip-coffee-machine-is-hypnotising-to-watch-it-changed-my-mind-about-pour-over-coffee",
+        "rel": "中 · 新闻解读，未实测"
+      },
+      {
+        "id": "S13",
+        "label": "Fellow · Aiden Precision Coffee Maker 官网",
+        "url": "https://fellowproducts.com/products/aiden-precision-coffee-maker",
+        "rel": "中高 · 官方规格和价格"
+      },
+      {
+        "id": "S14",
+        "label": "Yahoo · Fellow Aiden review（2026-04-28）",
+        "url": "https://shopping.yahoo.com/home-garden/kitchen/review/fellow-aiden-coffee-maker-review-190713717.html",
+        "rel": "中高 · 多周上手，含保温测温"
+      },
+      {
+        "id": "S15",
+        "label": "Hiroia · Hikaru 官网",
+        "url": "https://www.hiroia.com/products/hikaru",
+        "rel": "中高 · 官方规格和价格"
+      },
+      {
+        "id": "S16",
+        "label": "Hiroia · Samantha II 官网",
+        "url": "https://www.hiroia.com/products/samantha-ii",
+        "rel": "中高 · 官方规格和价格"
+      },
+      {
+        "id": "S17",
+        "label": "Gevi · BrewOne 4-in-1 官网",
+        "url": "https://gevi.com/products/gevi-brewone-premium-pour-over-coffee-machine",
+        "rel": "中 · 官方规格可信；页内评论由品牌托管"
+      },
+      {
+        "id": "S18",
+        "label": "Coffeeness · Gevi 4 in 1 Review",
+        "url": "https://www.coffeeness.de/en/gevi-4-in-1-review/",
+        "rel": "中 · 联盟营销站；内容更新于 2023，价格字段前后矛盾，不引用其价格"
+      },
+      {
+        "id": "S19",
+        "label": "Ratio · Eight Series 2 官网",
+        "url": "https://ratiocoffee.com/products/ratio-eight-series-2-coffee-maker",
+        "rel": "中高 · 官方规格和价格"
+      },
+      {
+        "id": "S20",
+        "label": "Poursteady · PS1 官网",
+        "url": "https://poursteady.com/automated-pourover-coffee-machines/ps1",
+        "rel": "中高 · 官方规格；官网不公开价格"
+      },
+      {
+        "id": "S21",
+        "label": "Voltage Coffee Supply · Pour-Over Coffee Machines",
+        "url": "https://www.voltagecoffeesupply.com/collections/pour-over-coffee-machines",
+        "rel": "中高 · 授权零售商的公开标价"
+      },
+      {
+        "id": "S22",
+        "label": "百胜图 · BAP-O2 获红顶奖提名（2022-12-17）",
+        "url": "https://barsetto.com/news/details_481_847.html",
+        "rel": "中 · 品牌公关稿"
+      },
+      {
+        "id": "X1",
+        "label": "X @acidsound · xBloom 最多 9 段注水（2026-06-06）",
+        "url": "https://x.com/acidsound/status/2063209841318125812",
+        "rel": "低–中 · 单个用户的实操记录"
+      },
+      {
+        "id": "X2",
+        "label": "X @nejikuman · 在日本租赁 xBloom（2026-08-10）",
+        "url": "https://x.com/nejikuman/status/2086722413430255849",
+        "rel": "低 · 个人帖子"
+      },
+      {
+        "id": "X3",
+        "label": "X @crazy_yu555666 · Gevi 水量传感器故障（2026-07-19）",
+        "url": "https://x.com/crazy_yu555666/status/2079039999966851113",
+        "rel": "低–中 · 单个用户；与官网评论里的水位故障一致"
+      },
+      {
+        "id": "X4",
+        "label": "X @WestinFlower · 从 Aiden 换到 Ratio Eight（2026-08-14）",
+        "url": "https://x.com/WestinFlower/status/2088238197494980911",
+        "rel": "低 · 个人观点"
+      },
+      {
+        "id": "X5",
+        "label": "X @jeremyjudkins_ · Aiden 用了一年以上（2026-08-30）",
+        "url": "https://x.com/jeremyjudkins_/status/2094149790041030920",
+        "rel": "低 · 个人帖子"
+      },
+      {
+        "id": "X6",
+        "label": "X @kotecinho · Spiral Luxe 发布帖（2026-09-30）",
+        "url": "https://x.com/kotecinho/status/2105385330321055926",
+        "rel": "低 · 只能说明关注度，不是使用反馈"
+      },
+      {
+        "id": "X7",
+        "label": "X @Specialon_ · Juni 是更便宜的 xBloom 竞品（2026-09-10）",
+        "url": "https://x.com/Specialon_/status/2097964066954207602",
+        "rel": "低 · 个人观点"
+      },
+      {
+        "id": "X8",
+        "label": "X @m_schneider · 自动机清洁频繁（2026-06-27）",
+        "url": "https://x.com/m_schneider/status/2070783157922590977",
+        "rel": "低 · 个人观点"
+      },
+      {
+        "id": "X9",
+        "label": "X @itswadha0 · 买了 xBloom，贵但值（2026-06-24）",
+        "url": "https://x.com/itswadha0/status/2069896622125769080",
+        "rel": "低 · 个人帖子"
+      },
+      {
+        "id": "X10",
+        "label": "X @nyaokiyoko · 日本售价 105,050 日元（2026-08-01）",
+        "url": "https://x.com/nyaokiyoko/status/2083763500166582471",
+        "rel": "低 · 电视节目转帖；价格未核实"
+      }
+    ]
+  }
 };
