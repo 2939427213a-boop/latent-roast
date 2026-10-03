@@ -149,7 +149,7 @@
           <div class="param"><div class="k">粉重</div><div class="v">${R.dose}<small> g</small></div></div>
           <div class="param"><div class="k">水量</div><div class="v">${R.water}<small> g</small></div><div class="d">1 : ${ratio}</div></div>
           <div class="param"><div class="k">水温</div><div class="v">${R.tempC}<small> °C</small></div></div>
-          <div class="param key"><div class="k">S3 刻度</div><div class="v">${esc(R.grind)}</div><div class="d">上一杯 ${esc(R.grindPrev)} → 调细</div></div>
+          <div class="param key"><div class="k">S3 刻度</div><div class="v">${esc(R.grind)}</div><div class="d">上一杯 ${esc(R.grindPrev)} → ${R.grindPrev === R.grind ? '不变' : (parseFloat(R.grind) < parseFloat(R.grindPrev) ? '调细' : '调粗')}</div></div>
           <div class="param"><div class="k">目标总时间</div><div class="v sm" style="font-size:22px">${esc(R.target)}</div></div>
         </div>
         <p class="why">${H(R.why)}</p>
