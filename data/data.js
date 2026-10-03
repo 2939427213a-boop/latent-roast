@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-02",
+    "updated": "2026-10-03",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -289,7 +289,7 @@ window.LR_DATA = {
     },
     {
       "text": "在 Notion 建好 Coffee Log（豆子表 + 冲煮表）",
-      "done": false
+      "done": true
     }
   ],
   "gear": [
@@ -540,6 +540,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-03",
+      "items": [
+        "推送 Morning Gradient 第 1 课 EX1「偏酸 = 萃取不足？」。",
+        "配图：images/2026-10-03.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 2 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。"
+      ]
+    },
     {
       "date": "2026-10-02",
       "items": [
