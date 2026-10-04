@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-03",
+    "updated": "2026-10-04",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -159,6 +159,76 @@ window.LR_DATA = {
       },
       "try_big": "7.0 → 6.6",
       "illustration_note": "配图沿用方向 A 的插画（用户选中的参考手绘 morning-gradient-design/assets/ref-full.jpg），气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-04",
+      "code": "TA1",
+      "branch": "品鉴与风味",
+      "level": "入门",
+      "lesson_no": 2,
+      "title": "好酸 vs 坏酸",
+      "summary": "品鉴桌上，「酸」常被当成贬义词。其实分两种：酸质是有结构、会收进甜感的明亮感；偏酸是尖、薄、空，像没甜感撑着的柠檬汁。第 2 杯热时酸感仍明显但入口顺了——今天练的，就是用舌头把这两种酸分开。",
+      "body": "**酸质**是精品咖啡里的好词：明亮、有果味、有结构，像熟苹果的清脆。**偏酸**才是缺陷：尖、薄、空，在舌头两侧拉扯，咽下后没有甜感接住。\n\n怎么分？问三句：这酸有没有甜感垫底？口感是圆还是薄？尾韵是收进柔和，还是留下空、尖的边？\n\nUC Davis 在 SCA 的研究写得很清楚：同一豆，冲煮参数不同时，**sour taste（酸感）变化最大**。高浓度（TDS）+ 低萃取率（PE）→ 酸感最强；低浓度 + 高萃取率 → 酸感最弱。所以「这豆太酸」常常其实是「这杯冲少了」。\n\n结合你的杯：第 1 杯约 2:30，尖、薄——偏酸，萃取不足。第 2 杯热时酸感仍在，但入口顺了、咽下不回酸——调细到 6.6 在往对的方向走。Giant Steps 是深烘拼配，目标不是明亮酸质，而是低酸、丝滑、柔和。今天冲第 3 杯时，判断剩下的酸是还没萃够的**偏酸**，还是被甜和醇厚度托住的一点点提亮。",
+      "takeaways": [
+        "酸质 ≠ 偏酸。有甜、有结构的是酸质；尖、薄、空的是偏酸。",
+        "UC Davis：酸感在高浓度、低萃取时最强。冲煮能大幅改酸感。",
+        "你要低酸柔和杯。今天用舌头诊断，不改研磨，只把总时间测准。"
+      ],
+      "try_today": "1. 冲第 3 杯：S3 6.6 / 30 g / 350 g / 93 °C。先按 Timer，严格按注水表开始时刻注水。\n2. 热着小口尝：酸是「尖、薄、空」，还是「圆、有果味、咽下后不硌」？\n3. 记下总时间（目标 **3:00–3:15**）。一次只改计时，不改研磨。",
+      "sources": [
+        {
+          "label": "SCA · Manipulating and Measuring a Key Attribute in Drip Brew Coffee（UC Davis，25 Issue 15）",
+          "url": "https://sca.coffee/sca-news/25/issue-15/manipulating-and-measuring-a-key-attribute-in-drip-brew-coffee-zwlhz",
+          "reliability": "高 · 同行评审研究的作者科普版"
+        },
+        {
+          "label": "SCA · Towards a New Brewing Chart（UC Davis，25 Issue 13）",
+          "url": "https://sca.coffee/sca-news/25/issue-13/towards-a-new-brewing-chart-xpj8t",
+          "reliability": "高 · 感官实验，sourness 随 TDS↑ PE↓ 上升"
+        },
+        {
+          "label": "Cascara · Bright vs sour",
+          "url": "https://cascara.cafe/guide/coffee-acidity-explained",
+          "reliability": "中 · 科普，区分 brightness 与 sourness"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn comic illustration, ink lines, soft green and cream watercolor, sketchbook paper texture, morning light, gentle humor. Left: frowning ceramic pour-over dripper with a lemon (harsh sour). Right: smiling dripper and cup with a glowing ripe citrus (pleasant brightness). No text in the image. Leave clear space at top-left and top-center for speech bubbles.",
+      "image": "images/2026-10-04.png",
+      "tag": "",
+      "image_alt": "左边：皱眉的滤杯旁边放着柠檬。右边：微笑的滤杯和杯子，旁边是发光的熟柑橘。",
+      "bubbles": [
+        {
+          "text": "这酸……是好酸\n还是坏酸？",
+          "x": 3,
+          "y": 1,
+          "tail": "left"
+        },
+        {
+          "text": "有甜垫底 → **酸质**\n尖薄空 → **偏酸**",
+          "x": 52,
+          "y": 4,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "酸的两端（品鉴用）",
+        "steps": [
+          {
+            "label": "偏酸 · 尖薄",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "酸质 · 有甜",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "低酸 · 柔和",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "尝：尖还是圆？",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
     }
   ],
   "beans": [
@@ -563,6 +633,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-04",
+      "items": [
+        "推送 Morning Gradient 第 2 课 TA1「好酸 vs 坏酸」。",
+        "配图：images/2026-10-04.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。先按 Timer。品鉴重点：区分酸质与偏酸。"
+      ]
+    },
     {
       "date": "2026-10-03",
       "items": [
