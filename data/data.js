@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-04",
+    "updated": "2026-10-05",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -228,6 +228,71 @@ window.LR_DATA = {
         ]
       },
       "try_big": "尝：尖还是圆？",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-05",
+      "code": "GR1",
+      "branch": "研磨",
+      "level": "入门",
+      "lesson_no": 3,
+      "title": "研磨粗细与流速",
+      "summary": "研磨粗细同时拧着两件事：咖啡床让水走多快（流速），和每克粉露出多少表面让水去溶解。调细，水走得慢、接触久、表面也多——两股力都把萃取往上推。所以总时间是研磨的读数，但前提是注水节奏固定、计时器真的在走。",
+      "body": "**机制一：流速。** 手冲是渗滤：水在重力下穿过一层咖啡床。Barista Hustle 用达西定律（Darcy's Law）解释：流速取决于这层床的“透水性”（hydraulic conductivity）。粗粉之间缝隙大，像水泼在一堆砖上，一下就穿过去；细粉缝隙小，像泼在沙堡上，水得慢慢渗。粉床越深，水走的路越长，也越慢。\n\n**机制二：表面积。** Coffee ad Astra 讲得很透：单看一颗粒子，粗细不影响表面那层细胞的萃取速度；但同样 30 g 粉，磨得越细，总表面积越大，整体溶出就越快。粗颗粒里面还有很多深层细胞，水几乎够不着，萃取更不均匀，也相当于“白放了一部分粉”。\n\n**两股力同向。** 调细 = 接触时间变长 + 可溶表面变多，萃取率（EY）一起往上走。调粗则两者一起往下。这就是为什么刻度 7.0 那杯 2:30 就滴完，喝起来偏酸、单薄。\n\n**结合你的杯：** 6.6 那杯总时间约 3:45，但那是估计——没按 Timer、注水也慢。总时间同时受研磨和注水节奏影响；只有注水表固定，总时间才能当研磨的读数用。所以今天还是不动刻度，先拿到一个真实的总时间。",
+      "takeaways": [
+        "调细：水走得慢 + 表面积变大，两股力都让萃取变多；调粗则相反。",
+        "总时间是研磨的读数，但只有注水节奏固定、Timer 真的在走时才准。",
+        "S3 每次只动 2–4 格，一次只改一个变量。"
+      ],
+      "try_today": "1. 冲 Giant Steps：S3 6.6 / 30 g / 350 g / 93 °C，刻度不动。\n2. 先按秤上的 Timer 键，看到读数在走，再开始闷蒸。\n3. 按注水表的开始时刻注水（计时器读数，从按下 Timer 开始累计）：0:00 / 0:40 / 1:10 / 1:40。\n4. 滴滤结束时记下计时器读数，这就是总时间（目标 **3:00–3:15**）。\n5. 看滴滤：最后是均匀地滴，还是快结束时明显变慢、水积在粉面上？",
+      "sources": [
+        {
+          "label": "Barista Hustle · P 3.01 Flow（Grind and Flow）",
+          "url": "https://www.baristahustle.com/lesson/p-3-01-flow/",
+          "reliability": "中高 · 专业咖啡教育课程，用达西定律解释粉床与流速"
+        },
+        {
+          "label": "Coffee ad Astra · The Dynamics of Coffee Extraction",
+          "url": "https://coffeeadastra.com/2019/01/29/the-dynamics-of-coffee-extraction/",
+          "reliability": "中高 · 天体物理学家的萃取模型；作者注明模型未经实测验证"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn comic illustration, ink lines, soft sage-green and cream watercolor, sketchbook paper texture (#F4EEE1), gentle humor. Center: a cute slim hand grinder with a face holding a magnifying glass. Left: a ceramic dripper with coarse grounds, water rushing straight through, dripper dizzy and sweaty. Right: a dripper with finer grounds, water trickling evenly into a glass carafe, dripper calm and content. No text. Leave space at top-left and top-center for speech bubbles.",
+      "image": "images/2026-10-05.png",
+      "tag": "",
+      "image_alt": "中间是拿着放大镜的手摇磨豆机。左边粗粉的滤杯被水一冲而过，满头大汗；右边细一点的粉，水慢慢均匀滴下，滤杯很淡定。",
+      "bubbles": [
+        {
+          "text": "水一下就冲过去了……\n难怪偏酸、单薄",
+          "x": 3,
+          "y": 1,
+          "tail": "left"
+        },
+        {
+          "text": "调细 → 水走得慢\n表面多 → **萃取变多**",
+          "x": 52,
+          "y": 4,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "研磨粗细 → 流速 → 味道",
+        "steps": [
+          {
+            "label": "粗 · 快 · 偏酸",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "适中 · 3:00–3:15",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "细 · 慢 · 偏苦",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "先按 Timer",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
     }
   ],
@@ -633,6 +698,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-05",
+      "items": [
+        "推送 Morning Gradient 第 3 课 GR1「研磨粗细与流速」。",
+        "配图：images/2026-10-05.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。先按 Timer，拿到真实总时间再决定要不要动刻度。"
+      ]
+    },
     {
       "date": "2026-10-04",
       "items": [
