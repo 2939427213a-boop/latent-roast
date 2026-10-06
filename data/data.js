@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-05",
+    "updated": "2026-10-06",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -293,6 +293,71 @@ window.LR_DATA = {
         ]
       },
       "try_big": "先按 Timer",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-06",
+      "code": "RO2",
+      "branch": "烘焙与养豆",
+      "level": "入门",
+      "lesson_no": 4,
+      "title": "深烘豆的养豆期",
+      "summary": "养豆其实是两条线在同时走：豆子里的 CO₂ 慢慢排出，香气也在慢慢散失、氧化。烘得越深，细胞结构越脆、越多孔，两条线都走得越快——所以深烘豆需要的养豆最短，香气退得也最早。Giant Steps 今天养豆第 20 天，没坏，但现在要做的是保住剩下的香气。",
+      "body": "**机制一：排气。** 烘焙会在豆子里生成大量 CO₂。太新鲜的豆子，气体会挡在水和粉之间，让萃取不稳定。但 Scott Rao 指出：手冲时，粉一打湿，气体就直接逸散到空气里，不像意式那样在粉饼里形成背压。所以手冲本来就比意式更不需要长时间养豆。\n\n**机制二：细胞结构。** Rao 的观察是：烘得越浅，细胞壁越结实、越不多孔，越需要多养几天才到风味高峰；滚筒烘焙的传导热会削弱豆子外层细胞，让豆子更多孔，也更不需要养。深烘走得更远：结构更脆，气体和香气都散得快。他说深烘出油的豆他最多养一天，几天后可能就有一点哈喇味（这是他的个人经验，不是实验数据）。\n\n**机制三：保存。** Rao 还说：保存条件决定老化速度。真空冷冻几乎让时间停下，温暖环境会加速劣化。Blue Bottle 官方说法是：高阻隔袋加单向排气阀，未开封最多 100 天；开封后建议 14 天内喝完。\n\n**结合你的杯：** 10/3 那杯，整豆、研磨后、入杯的香气都弱，像普通热美式。这和“深烘 + 养豆第 17 天，挥发性香气已经散掉一部分”对得上——不是你冲错了，是豆子的时钟。所以香气弱不要靠研磨去“补”：研磨改的是萃取，补不回已经散掉的香气。剩下约 280 g，按你 10/2 第一次冲时开封算，10/16 前喝完最好。",
+      "takeaways": [
+        "养豆是两条线：CO₂ 往外排（太新鲜萃取不稳），香气同时在散失、氧化；烘得越深，两条线走得越快。",
+        "手冲比意式更不需要长时间养豆：粉打湿时气体直接逸散，不形成背压。",
+        "香气弱是豆子的时钟，不是研磨问题。挤出空气、封紧、放阴凉柜子（别放冰箱），开封 14 天内喝完。"
+      ],
+      "try_today": "1. 冲第 3 杯：S3 6.6 / 30 g / 350 g / 93 °C，刻度不动。先按秤上的 Timer 键。\n2. 按注水表的开始时刻注水（计时器读数，从按下 Timer 开始累计）：0:00 / 0:40 / 1:10 / 1:40。\n3. 闷蒸时看粉面：鼓起多高、冒泡多不多？这是养豆第 20 天的排气读数，记一句。\n4. 开袋先闻 3 秒整豆，磨完再闻一次，和 10/3 比：更弱，还是差不多？\n5. 滴滤结束时记下计时器读数（总时间，目标 **3:00–3:15**）。冲完把袋里空气挤出、封紧，放回阴凉柜子。",
+      "sources": [
+        {
+          "label": "Scott Rao · Resting Roasts: Is Fresher Better?（2023-05-29）",
+          "url": "https://www.scottrao.com/blog/restingbeans",
+          "reliability": "中高 · 资深烘焙顾问的实践经验；作者自己说没人确切知道养豆期间具体改变了什么"
+        },
+        {
+          "label": "Blue Bottle · How long does your coffee stay fresh?",
+          "url": "https://support.bluebottlecoffee.com/hc/en-us/articles/12753763630875-How-long-does-your-coffee-stay-fresh",
+          "reliability": "中高 · 你这袋豆的烘焙商官方说法；带一点营销口吻"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic illustration, black ink lines with soft sage-green and warm cream watercolor on cream paper texture, gentle humor. Three cute coffee bean bags with faces on a wooden kitchen shelf: left bag puffy and excited, middle bag relaxed and happy with aroma swirls, right bag sleepy and slightly wrinkled with only a faint wisp of aroma. Lower right: a ceramic pour-over dripper and a glass carafe with faces look up at the bags. Empty paper at top-left and top-center. No text.",
+      "image": "images/2026-10-06.png",
+      "tag": "",
+      "image_alt": "木架上三袋有表情的咖啡豆：左边刚烘好、鼓鼓的很兴奋；中间放松地飘着香气；右边有点皱、犯困，香气只剩一缕。下方的滤杯和分享壶抬头看着它们。",
+      "bubbles": [
+        {
+          "text": "第 20 天……\n香气在往外跑",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "挤出空气、封紧、避热\n**14 天内喝完**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "养豆天数 → 排气 → 香气",
+        "steps": [
+          {
+            "label": "刚烘好 · 气多 · 萃取不稳",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "气散了 · 香气还在",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "第 20 天 · 香气渐散",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "看闷蒸鼓多高",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
     }
   ],
@@ -698,6 +763,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-06",
+      "items": [
+        "推送 Morning Gradient 第 4 课 RO2「深烘豆的养豆期」。",
+        "配图：images/2026-10-06.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。新增观察：闷蒸鼓起多高、整豆和研磨后的香气。"
+      ]
+    },
     {
       "date": "2026-10-05",
       "items": [
