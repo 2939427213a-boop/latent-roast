@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-06",
+    "updated": "2026-10-09",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -358,6 +358,76 @@ window.LR_DATA = {
         ]
       },
       "try_big": "看闷蒸鼓多高",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-09",
+      "code": "RT2",
+      "branch": "比例与温度",
+      "level": "入门",
+      "lesson_no": 5,
+      "title": "水温怎么选",
+      "summary": "水温是萃取的油门：越热，溶出越快，也越容易把后段的苦和涩一起带出来。深烘豆多孔、好溶，所以通常用比浅烘低一点的水温；但降太多，杯子会单薄、偏酸。你那杯 93 °C 热时偏酸、放凉发苦，先别急着动水温，因为总时间还没测准。",
+      "body": "**机制一：温度是油门。** 水越热，可溶物溶出越快。温度主要改变“出多快、出多深”。推得越深，后段的苦和涩越容易进杯；推得不够，杯里只剩先出来的酸，单薄、偏酸。\n\n**机制二：深烘豆好溶。** 烘得越深，豆子越多孔。Barista Hustle 的 UX 文章提到，深烘颗粒的密度更低、孔隙更多。好溶就意味着同样的水温更容易推过头。Coffee ad Astra 的作者写道：深烘豆用沸水容易发苦、有焦烤味，这时调低壶温会好很多（这是他的个人经验，写的是爱乐压）。\n\n**机制三：壶上的数字不是粉床的温度。** 在 Barista Hustle 的浸泡实验里，93 °C 的水倒进没预热的容器，搅进粉后马上量到 87 °C，第 4 分钟是 83 °C。那不是手冲滤杯，但方向一样：水一落到粉上就开始降温。所以从 93 °C 降到 91 °C 是真实的变化，但不是剧变。\n\n**机制四：先定配方，再动温度。** Scott Rao 的建议：同一烘焙度的豆子，把水温、粉重、粉水比定下来，只用研磨把总时间调进目标范围。只有在萃取做得好、仍尝到缺陷味的时候，才试更低的水温。\n\n**结合你的杯：** 10/3 那杯 93 °C，热的时候偏酸，放凉后苦味浮出来。按 Rao 的顺序，现在还不能说是水温的问题：那杯总时间约 3:45 是估计值，没按 Timer。而降水温会让萃取变慢，对一杯本来就偏酸的咖啡，可能更酸。你偏爱低酸、丝滑、柔和，所以今天保持 93 °C，先拿到真实总时间。如果总时间落在 3:00–3:15、热的时候不再偏酸、放凉后仍苦，下一杯才降到 **91 °C**，只改这一个变量。",
+      "takeaways": [
+        "水温是萃取的油门：越热越快，越容易把苦和涩带出来；太低则单薄、偏酸。",
+        "深烘豆多孔好溶，通常比浅烘用更低的水温。壶上的读数也高于粉床的实际温度。",
+        "一次只改一个变量：先用研磨把总时间调准；萃取做好了还发苦，再降水温。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。先按秤上的 Timer 键。\n2. 下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。0:00 开始闷蒸，注到 60 g。\n3. 0:40 开始第 2 段，注到 150 g。\n4. 1:10 开始第 3 段，注到 250 g。\n5. 1:40 开始第 4 段，注到 350 g。滴滤结束时记下总时间（目标 **3:00–3:15**）。\n6. 趁热喝一口。留约 30 g 放 20 分钟再喝一口，看苦味有没有浮出来。这一口决定下一杯要不要降到 91 °C。",
+      "sources": [
+        {
+          "label": "Scott Rao · How to approach brewing different coffees（2024-02-26）",
+          "url": "https://www.scottrao.com/blog/2024/2/26/how-to-approach-brewing-different-coffees",
+          "reliability": "中高 · 资深咖啡顾问的实践建议，不是实验数据"
+        },
+        {
+          "label": "Coffee ad Astra · Reaching Fuller Flavor Profiles with the AeroPress（2021-09-07）",
+          "url": "https://coffeeadastra.com/2021/09/07/reaching-fuller-flavor-profiles-with-the-aeropress/",
+          "reliability": "中高 · 重机制的咖啡科学博客；深烘降温这句是作者的个人经验，而且写的是爱乐压"
+        },
+        {
+          "label": "Barista Hustle · The UX Brew Method（2025-03-22，Steven Abbott 等）",
+          "url": "https://www.baristahustle.com/research-papers/the-ux-brew-method/",
+          "reliability": "中 · 温度读数来自浸泡实验装置，不是手冲滤杯，只用来说明“水落到粉上会降温”"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic illustration, black ink lines with soft sage-green and warm cream watercolor on cream paper. A matte black gooseneck kettle with a face holds a tiny thermometer like a baton; a white ceramic dripper on a glass carafe looks up at it; lower right, a cooled cup with a grimacing face next to a cheerful steaming cup; a few dark beans with faces. Empty paper at top-left and top-center. No text.",
+      "image_alt": "一只有表情的黑色手冲壶举着小温度计，像在指挥；旁边的白色滤杯坐在分享壶上抬头看它。右下角，一杯放凉的咖啡皱着眉，旁边一杯冒着热气的咖啡在笑。",
+      "bubbles": [
+        {
+          "text": "93 °C，放凉后\n苦味冒出来了……",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "先测准总时间\n再决定降不降到 **91 °C**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "水温（大致）",
+        "steps": [
+          {
+            "label": "太低 · 单薄 · 偏酸",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "合适 · 甜 · 醇厚度",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "太高 · 苦 · 涩",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "93 °C 不动",
+      "image": "images/2026-10-09.png",
+      "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
     }
   ],
@@ -763,6 +833,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-09",
+      "items": [
+        "推送 Morning Gradient 第 5 课 RT2「水温怎么选」（10/7–10/8 暂停期间漏推，课程整体顺延 2 天，一课不跳）。",
+        "配图：images/2026-10-09.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。新增：留一口放凉 20 分钟，用来判断下一杯要不要降到 91 °C。"
+      ]
+    },
     {
       "date": "2026-10-06",
       "items": [
