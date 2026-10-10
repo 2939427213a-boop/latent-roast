@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-09",
+    "updated": "2026-10-10",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -429,6 +429,71 @@ window.LR_DATA = {
       "image": "images/2026-10-09.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-10",
+      "code": "PO1",
+      "branch": "注水",
+      "level": "入门",
+      "lesson_no": 6,
+      "title": "闷蒸在做什么",
+      "summary": "闷蒸有两件事要做：让每一粒粉都先喝饱水，再把烘焙时留在粉里的气体放出去。粉大约能吸住自身重量 2 倍的水，所以你配方里 30 g 粉闷蒸注到 60 g，刚好是 2 倍。水太少会留下干粉团，水太多又容易堵住滤纸、让滴滤变慢。",
+      "body": "**机制一：先让粉喝饱水。** Barista Hustle 的说法是：咖啡粉大约能吸住自身重量 2 倍的水。闷蒸就是先倒一小份水，给粉时间把水吸进去。没吸饱的地方会留下干粉团。水走后面几段时会绕开干粉团，有的粉萃取过度，有的萃取不足，杯里就会又酸又苦。\n\n**机制二：把气体放出去。** 烘焙时产生的气体还留在粉里。闷蒸时粉面会鼓起来、冒泡，就是气体在往外跑。先让它跑掉，后面的水才容易进到粉里。\n\n**机制三：闷蒸水不是越多越好。** Barista Hustle 做过一组 V60 实验（15 g 粉 / 250 g 水），只改闷蒸水量。闷蒸水越多，后面主注水流过粉床的速度就越慢，说明滤纸被细粉堵得越厉害。他们的建议是：闷蒸水量取粉重的 2–3 倍。少于这个范围，容易留干粉团；多于这个范围，容易堵，也更容易出现通道效应。\n\n**机制四：搅拌不一定更好。** 同一家的另一组实验里，闷蒸时用勺子搅拌，粉反而吸进的水更少，总时间多了大约 10 秒；最后杯子的浓度（TDS）几乎没差别。所以闷蒸时轻一点，不必搅。\n\n**结合你的杯：** 你的配方是 30 g 粉、闷蒸注到 60 g，正好是 2 倍，在推荐范围的下沿。Giant Steps 今天养豆第 24 天，又是深烘，粉里剩下的气体比刚开袋时少，所以粉面可能鼓得不高、泡也少。这本身不是问题。今天要看的是：闷蒸结束时，粉面上还有没有干的、颜色浅的粉团。如果有，下一杯才把闷蒸加到 75 g（2.5 倍），只改这一个变量。",
+      "takeaways": [
+        "闷蒸两件事：让所有粉先吸饱水，再把烘焙时留下的气体放出去。",
+        "闷蒸水量取粉重的 2–3 倍。太少留干粉团、萃取不均；太多容易堵滤纸、拖慢滴滤。",
+        "你现在 30 g 粉闷蒸 60 g = 2 倍。今天先看有没有干粉团，再决定要不要加到 75 g。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。先按秤上的 Timer 键，看到读数在走再开始。\n2. 下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。0:00 开始闷蒸，从中心往外画小圈，注到 60 g，尽量把所有粉都淋湿。不要搅拌。\n3. 闷蒸的 40 秒里看粉面：鼓得多高、泡多不多，有没有干的、颜色浅的粉团。记一句。\n4. 0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n5. 滴滤结束时记下计时器读数，这就是总时间（目标 **3:00–3:15**）。\n6. 留约 30 g 放 20 分钟再尝一口，看苦味有没有浮出来（这一口决定要不要降到 91 °C）。",
+      "sources": [
+        {
+          "label": "Barista Hustle · Blooming and Clogging（2021-04-03）",
+          "url": "https://www.baristahustle.com/blooming-and-clogging/",
+          "reliability": "中高 · 专业咖啡教育机构的对照实验；样本小，用的是 V60，不是 Blue Bottle 滤杯"
+        },
+        {
+          "label": "Barista Hustle · Blooming Marvellous（2021-10-30）",
+          "url": "https://www.baristahustle.com/blooming-marvellous/",
+          "reliability": "中高 · 同上，有重复实验和 T 检验；结论是“搅拌不明显提高浓度”，不是“哪种闷蒸最好”"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic illustration, black ink lines with soft sage-green and warm cream watercolor on cream paper. A white ceramic dripper on a glass carafe; the coffee bed puffs up into a soft dome with tiny bubbles and wisps of gas rising. A matte black gooseneck kettle with a friendly face waits patiently, a pocket watch dangling from its handle. Two dark roasted beans with faces at lower right, one gasping. Empty paper at top-left and top-center. No text.",
+      "image_alt": "白色滤杯坐在玻璃分享壶上，杯里的咖啡粉像面团一样鼓起来，冒出小气泡。右边一只有表情的黑色手冲壶耐心地等着，壶把上挂着一块怀表。右下角两颗咖啡豆，一颗张大了嘴。",
+      "bubbles": [
+        {
+          "text": "刚倒水就鼓起来了……\n要不要接着倒？",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "先等 40 秒，让粉喝饱水\n闷蒸 60 g = 粉重 **2 倍**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "闷蒸水量（粉重的几倍）",
+        "steps": [
+          {
+            "label": "不到 2 倍 · 干粉团 · 萃取不均",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "2–3 倍 · 均匀湿透",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "太多 · 堵滤纸 · 滴滤变慢",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "60 g = 2 倍",
+      "image": "images/2026-10-10.png",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
     }
   ],
   "beans": [
@@ -517,6 +582,10 @@ window.LR_DATA = {
       {
         "if": "总时间 &lt; 3:00，而且偏酸 / 单薄",
         "then": "下一杯把 S3 调细到 <b>6.3</b>"
+      },
+      {
+        "if": "闷蒸结束时粉面上还有干的、颜色浅的粉团",
+        "then": "下一杯只改闷蒸：注到 <b>75 g</b>（粉重 2.5 倍），其他不变"
       }
     ]
   },
@@ -833,6 +902,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-10",
+      "items": [
+        "推送 Morning Gradient 第 6 课 PO1「闷蒸在做什么」。",
+        "配图：images/2026-10-10.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。新增观察：闷蒸结束时有没有干粉团；配方页“如果…就…”加了一条闷蒸 75 g 的规则。"
+      ]
+    },
     {
       "date": "2026-10-09",
       "items": [
