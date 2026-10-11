@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-10",
+    "updated": "2026-10-11",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -494,6 +494,71 @@ window.LR_DATA = {
       "image": "images/2026-10-10.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-11",
+      "code": "EX2",
+      "branch": "萃取原理",
+      "level": "入门",
+      "lesson_no": 7,
+      "title": "第一周复盘 · 萃取的三个变量",
+      "summary": "手冲里能推动萃取率的，主要是三个变量：研磨粗细、水温、接触时间（就是总时间）。粉水比主要管浓度，后面 RT1 再讲。这三个变量互相牵连：调细会让滴滤变慢，总时间也跟着变长。所以一次只动一个，而且总时间必须测准。",
+      "body": "**先分清两个数。** 萃取率（EY）是豆子里有多少溶进了杯里；浓度（TDS）是杯里有多浓。UC Davis 的研究把它们写成同一条质量守恒式，再用粉水比连起来。\n\n**机制一：浸泡会走到终点，手冲不会。** UC Davis 做过浸泡实验：泡够约 20 分钟后，萃取率稳定在约 21%。从 80 °C 到 99 °C，从很细到很粗，终点几乎一样。水温和研磨只改变走到终点的速度，不改变终点。手冲 3 分钟左右就结束，远没到终点，所以速度就是一切：磨得越细（表面积越大、粉床越紧），水越热，接触越久，萃取率越高。论文自己也写了：滴滤可以靠流速、粉水比和总时间组合出不同的浓度和萃取率，浸泡做不到。\n\n**机制二：水温是通过萃取率起作用的。** 同一组人做过滴滤实验：87 / 90 / 93 °C 三种水温，调研磨和流速，把浓度和萃取率做成一样。训练过的品鉴员几乎尝不出水温的差别。决定味道的是浓度和萃取率本身。\n\n**机制三：酸跟着萃取率走。** 在那项滴滤实验里，“酸”是变化最大的味道：浓度高、萃取率低的时候最酸，萃取率升高后酸明显下降。苦和涩则主要跟着浓度走。醇厚感（Viscous）也随浓度上升。\n\n**结合你这一周：** 第 1 杯 S3 刻度 7.0、总时间 2:30，偏酸，醇厚度不足，是萃取率偏低的典型样子。所以第 2 杯只动了研磨，调细到 6.6，水温 93 °C 没动。第 2 杯入口顺了很多，但没按 Timer，总时间约 3:45 是估计值。三个变量里，研磨已经动过，水温 RT2 讲过先不动，只剩时间还没测准。时间也是另外两个变量的结果，测不准它，就不知道 6.6 到底是不是对的刻度。",
+      "takeaways": [
+        "手冲里推动萃取率的三个变量：研磨粗细、水温、接触时间。粉水比主要管浓度。",
+        "三个变量互相牵连：调细会拖长总时间。所以一次只动一个，并且每杯测准总时间。",
+        "UC Davis 的滴滤实验里，萃取率升高后酸明显下降。想要低酸、柔和，方向是把萃取率往上推，而不是降水温。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。今天是周日，趁上午冲，下午不喝。\n2. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。\n3. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n4. 滴滤结束时记下计时器读数，这就是总时间（目标 **3:00–3:15**）。\n5. 只记三件事：总时间、热的时候酸不酸、醇厚度够不够。语音说一句就行。",
+      "sources": [
+        {
+          "label": "Liang, Chan, Ristenpart · An equilibrium desorption model for the strength and extraction yield of full immersion brewed coffee（Scientific Reports，2021-03-25）",
+          "url": "https://www.nature.com/articles/s41598-021-85787-1",
+          "reliability": "高 · UC Davis 同行评审论文，数据完整；但研究的是浸泡，不是手冲，手冲部分是作者在讨论里的推论"
+        },
+        {
+          "label": "Batali, Ristenpart, Guinard · Brew temperature, at fixed brew strength and extraction, has little impact on the sensory profile of drip brew coffee（Scientific Reports，2020-10-05）",
+          "url": "https://www.nature.com/articles/s41598-020-73341-4",
+          "reliability": "高 · UC Davis 同行评审论文，训练过的品鉴小组盲测；用的是商用滴滤机和单一支中浅烘豆，不是 Blue Bottle 滤杯和深烘拼配"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic illustration, black ink lines with soft sage-green and warm cream watercolor on cream paper. A white ceramic cone dripper on a glass carafe looks thoughtful, hand on chin. Around it, like a small team meeting: a matte-black hand grinder, a black gooseneck kettle holding a thermometer, and a small brass hourglass with a face. A kitchen scale in front, beans with faces at lower right, one taking notes. Empty paper at top-left and top-center. No text.",
+      "image_alt": "一只白色滤杯坐在玻璃分享壶上，托着下巴在想事情。旁边站着三个有表情的伙伴：黑色手摇磨豆机、夹着温度计的黑色手冲壶、一个小沙漏。前面是一台秤，右下角两颗咖啡豆，一颗在本子上记笔记。",
+      "bubbles": [
+        {
+          "text": "一周两杯……\n到底该动哪个？",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "研磨、水温、时间\n**一次只动 1 个**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "萃取率（UC Davis 滴滤实验，大致）",
+        "steps": [
+          {
+            "label": "低 · 酸和果味突出",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "中 · 酸变柔",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "高 · 焦香、灰感上来",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "先测准总时间",
+      "image": "images/2026-10-11.png",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
     }
   ],
   "beans": [
@@ -902,6 +967,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-11",
+      "items": [
+        "推送 Morning Gradient 第 7 课 EX2「第一周复盘 · 萃取的三个变量」（来源：UC Davis 两篇 Scientific Reports 论文）。",
+        "配图：images/2026-10-11.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。重点只有一个：按 Timer，测准总时间。"
+      ]
+    },
     {
       "date": "2026-10-10",
       "items": [
