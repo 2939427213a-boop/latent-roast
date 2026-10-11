@@ -542,7 +542,7 @@ window.LR_DATA = {
         "label": "萃取率（UC Davis 滴滤实验，大致）",
         "steps": [
           {
-            "label": "低 · 酸和果味突出",
+            "label": "低 · 酸突出",
             "color": "#D9BE55"
           },
           {
@@ -550,12 +550,12 @@ window.LR_DATA = {
             "color": "#9CAF94"
           },
           {
-            "label": "高 · 焦香、灰感上来",
+            "label": "高 · 焦香上来",
             "color": "#5B4636"
           }
         ]
       },
-      "try_big": "先测准总时间",
+      "try_big": "测总时间",
       "image": "images/2026-10-11.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
