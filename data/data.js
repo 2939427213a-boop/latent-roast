@@ -2,14 +2,14 @@
  * 每天更新：在 daily 数组末尾追加一条课程（字段见 README.md）。配图放到 images/YYYY-MM-DD.png。
  * 课程总表在 Notion「Morning Gradient · Lessons」。这里只放已推送 / 当天要推的课。
  * 冲煮记录：更新 brews / recipe。其他页面不用改。
- * 所有文字都要遵循 ROUTINE.md 里的 STE 写作规则和术语表。
+ * 所有文字都要遵循 ROUTINE.md 里的写作规则和术语表。
  * 注意：这是 JS 文件。最外层是 window.LR_DATA = {...};
  */
 window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -559,6 +559,81 @@ window.LR_DATA = {
       "image": "images/2026-10-11.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加"
+    },
+    {
+      "date": "2026-10-12",
+      "code": "FD1",
+      "branch": "滤杯与滤纸",
+      "level": "入门",
+      "lesson_no": 8,
+      "title": "滤杯形状与流速",
+      "summary": "你这只 Blue Bottle 滤杯是平底的，底下只有一个中心孔。同样的粉、水、温度，换成锥形滤杯（比如 V60），杯里的味道就会变——UC Davis 做过盲测。平底粉床厚度更均匀，旁路更少，深烘时更容易往巧克力、木质、柔和那边走；锥形更容易把酸和苦拉出来。流速主要由底部孔和粉床一起决定，所以你更要靠研磨和计时把总时间卡进 3:00–3:15。",
+      "body": "**你手里的是什么。** Blue Bottle 滤杯是平底，底下一孔。它和 Kalita Wave 同属平底阵营，但 Wave 是三孔，Blue Bottle 是单孔。Prima Coffee 的横向对比里，同样条件下这只杯的萃取率略高，杯子偏甜、偏圆。\n\n**机制一：形状会改水流，从而改味道。** UC Davis Coffee Center 和 SCA 做过盲测：其他变量固定，只换平底篮和半锥形篮。非专家品鉴员能分辨出两种形状做出的杯子（中等研磨时 45 人里 25 人猜对，p=0.004）。训练过的小组进一步描述：浅烘时，平底更偏干果、甜、花香，锥形更偏柑橘、莓果、酸；深烘时，平底更偏巧克力、可可、木质，锥形苦更重。你喜欢低酸、丝滑饱满、柔和——平底滤杯本身就在帮这个方向。\n\n**机制二：锥形旁路多，平底更“必须穿过粉床”。** Coffee ad Astra（Jonathan Gagné）把旁路（bypass）定义为绕过粉床、不怎么参与萃取的水。锥形滤杯（V60）滤纸面积大、不易堵，但旁路也多；磨得越细、粉床阻力越大，旁路占比越高，杯子容易又淡又涩。平底把粉床摊平，粉床厚度更均匀，水更难从边上溜走。Scott Rao 也写过：Kalita 这类平底更容易做出均匀萃取，但往往要分段注水。\n\n**机制三：流速是孔 + 粉床一起定的。** 锥形大孔时，流速很大程度上跟你的注水节奏走；平底小孔会自己限流，所以“手感”更宽容，但总时间仍然受研磨粗细影响（粉床越细、越深，滴得越慢）。你第 1 杯 S3 7.0、总时间约 2:30，偏酸、醇厚度不足——那是萃取不足。第 2 杯调细到 6.6 后入口顺了。今天不换滤杯、不改研磨，只把计时做准，顺便低头看一眼粉床是不是大体平整。",
+      "takeaways": [
+        "Blue Bottle 滤杯是平底单孔。形状会改变水流路径，UC Davis 盲测证明它会改变味道。",
+        "平底粉床更均匀、旁路更少，深烘时更容易往巧克力、木质、柔和走；锥形更容易拉出酸和苦。",
+        "平底小孔会限流，但总时间仍主要由研磨决定。今天配方不动，重点还是测准总时间，并看粉床是否平整。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。先按秤上的 Timer 键，看到读数在走再开始。\n2. 下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。0:00 开始闷蒸，注到 60 g。\n3. 0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n4. 滴滤时低头看粉床：表面是不是大体平整？水是不是从中间孔均匀往下走，而不是在一边冲出一个坑？\n5. 滴滤结束记下计时器读数，这就是总时间（目标 **3:00–3:15**）。热着尝：酸是不是比第 1 杯更圆？醇厚度够不够？",
+      "sources": [
+        {
+          "label": "Frost, Guinard, Ristenpart · Flat vs. Cone: Basket Shape is as Important as Grind Size in Drip Brew Coffee（SCA 25 Magazine Issue 8 / UC Davis）",
+          "url": "https://sca.coffee/sca-news/25-magazine/issue-8/english/flat-vs-cone-basket-shape-is-as-important-as-grind-size-in-drip-brew-coffee-25-magazine-issue-8-lpgsg",
+          "reliability": "高 · SCA 刊载的 UC Davis Coffee Center 盲测与感官描述；用的是商用滴滤机可换篮，不是手冲滤杯"
+        },
+        {
+          "label": "Scott Rao · Some Observations on Hand Pours（2016-10-08）",
+          "url": "https://www.scottrao.com/blog/2016/10/8/some-observations-on-hand-pours",
+          "reliability": "中高 · 资深烘焙/冲煮作者的一手观察与分类；不是受控实验"
+        },
+        {
+          "label": "Jonathan Gagné · The Four Rules of Optimal Coffee Percolation（Coffee ad Astra，2021-03-04）",
+          "url": "https://coffeeadastra.com/2021/03/04/the-four-rules-of-optimal-coffee-percolation/",
+          "reliability": "中高 · 物理学家写的渗滤机制（旁路、堵塞、均匀流动）；部分流量数字是作者的示意估算"
+        },
+        {
+          "label": "Michael Butterworth · Guest Review: Flat-Bottom Coffee Drippers（Prima Coffee，2017）",
+          "url": "https://prima-coffee.com/learn/article/comparisons/guest-review-flat-bottom-coffee-drippers/32818",
+          "reliability": "中 · 从业者横向对比，明确写了 Blue Bottle 单孔平底与略高萃取、偏甜偏圆；样本量小"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. Left: smiling white ceramic flat-bottom dripper on glass carafe. Right: surprised white cone dripper with ribs, water pouring in. Gooseneck kettle lower left, coffee beans with faces lower right. Empty upper-left/center for bubbles. No text.",
+      "image_alt": "左边一只微笑的白色平底滤杯坐在玻璃分享壶上，右边一只惊讶的白色锥形滤杯，水正倒进去。左下角露出手冲壶壶嘴，右下角几颗有表情的咖啡豆。",
+      "bubbles": [
+        {
+          "text": "平底 vs 锥形\n味道真的不一样？",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "形状改水流\n**平底更柔和**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "滤杯形状（UC Davis 深烘大致倾向）",
+        "steps": [
+          {
+            "label": "锥形 · 酸/苦更易出来",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "平底 · 巧克力·木质",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "你的 Blue Bottle",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "看粉床",
+      "image": "images/2026-10-12.png",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（Figma generate_image，原生 GenerateImage 本轮不可用）"
     }
   ],
   "beans": [
@@ -580,7 +655,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><b>今日课 FD1</b>：Blue Bottle 是平底单孔。冲的时候低头看粉床是否平整、水是否从中心孔均匀流下。配方仍不改。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -967,6 +1042,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-12",
+      "items": [
+        "推送 Morning Gradient 第 8 课 FD1「滤杯形状与流速」（来源：SCA/UC Davis Flat vs Cone、Scott Rao、Coffee ad Astra、Prima Coffee Blue Bottle 滤杯对比）。",
+        "配图：images/2026-10-12.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。新增观察：滴滤时粉床是否平整、水是否从中心孔均匀流下。"
+      ]
+    },
     {
       "date": "2026-10-11",
       "items": [
