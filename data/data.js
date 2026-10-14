@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -709,6 +709,72 @@ window.LR_DATA = {
       "image": "images/2026-10-13.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（父进程生成插画）"
+    },
+    {
+      "date": "2026-10-14",
+      "code": "EX3",
+      "branch": "萃取原理",
+      "level": "进阶",
+      "lesson_no": 10,
+      "title": "TDS 与萃取率",
+      "summary": "浓度（TDS）说的是杯里有多浓；萃取率（EY）说的是粉里有多少比例溶进了水。它们被粉水比连在一起，但不是一回事：同样的浓度、不同的萃取率，味道会差很多。SCA / UC Davis 的感官图里，苦随浓度和萃取率一起升；酸随浓度升、随萃取率降；甜反而在低浓度时更明显。你没有折射仪也没关系——热着喝时分清「糊口的浓」和「两侧尖的偏酸」。配方仍不动，先把总时间测准。",
+      "body": "**两轴，不是一句话。** 浓度（TDS）= 杯里溶解物有多浓。萃取率（EY / PE）= 干粉里有多少比例溶进了水。Lockhart 1957 年把它们画成冲煮控制图：纵轴浓度、横轴萃取率，粉水比是斜线——质量守恒把三件事锁在一起，但味道不只跟其中一轴走。\n\n**同样的浓，味道可以完全不同。** Coffee ad Astra（Jonathan Gagné）写过一个思想实验：三杯同样冲到约 1.3% TDS，但萃取率分别约 18%、22%、27%，加水调到同一浓度后，味道仍差一截——偏低更偏植物/酸、中间更平衡、偏高更苦更涩。滤杯咖啡常见浓度大约在 **1.3–1.45% TDS**，平均萃取率多在 **约 19–23%**（可溶物上限大约 30%，再高也挤不出更多「好东西」）。\n\n**感官图怎么走。** SCA / UC Davis（Frost 等人）的新冲煮控制图：苦和焦木/灰随 **高浓度 + 高萃取率** 一起升；酸随浓度升、随萃取率降（左上角更酸）；甜反而在 **低浓度 + 低萃取率** 更明显；有的焙度里黑巧克力会在高萃取、偏低浓度一侧更突出。Barista Hustle 的 Coffee Compass 也把「加减粉水（改浓度）」和「调细/拉长总时间（改萃取）」拆成两条路。\n\n**你的杯子。** 30:350 = 1:11.7，粉水比偏浓，所以第 2 杯放凉后「入口很浓」首先像高浓度，不一定是萃取过度。热的时候若还有两侧尖的偏酸，更像萃取率还不够、或萃取不均。你没有折射仪：用舌头当两轴——糊口、压舌头 → 浓（TDS）；两侧尖、咽下空 → 萃取不足（EY 偏低）。配方保持 S3 6.6 / 93 °C / 30:350，先测准总时间进 3:00–3:15。",
+      "takeaways": [
+        "TDS 是浓度，EY 是萃取率；粉水比把它们连在一起，但浓 ≠ 已经萃够。",
+        "同样浓度、不同萃取率，味道可以差很多（Coffee ad Astra）；苦随两轴升，酸随浓度升、随萃取率降（SCA / UC Davis）。",
+        "今天配方不动。测准总时间；热着喝时分清「浓」和「偏酸」。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。心里记两轴：粉水比主要推浓度，研磨与总时间主要推萃取率。\n2. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。\n3. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n4. 滴滤结束记下计时器读数（目标总时间 **3:00–3:15**）。\n5. 热着小口尝：糊口、压舌头 → 更像高浓度；两侧尖、咽下空 → 更像萃取不足。醇厚度够不够丝滑？",
+      "sources": [
+        {
+          "label": "Frost, Batali, Guinard, Ristenpart · Towards a New Brewing Chart（SCA 25 Magazine Issue 13 / UC Davis）",
+          "url": "https://sca.coffee/sca-news/25/issue-13/towards-a-new-brewing-chart-xpj8t",
+          "reliability": "高 · SCA 刊载的 UC Davis Coffee Center 感官描述实验；说明苦、酸、甜等属性如何分别随浓度与萃取率变化"
+        },
+        {
+          "label": "Jonathan Gagné · The Dynamics of Coffee Extraction（Coffee ad Astra，2019-01-29）",
+          "url": "https://coffeeadastra.com/2019/01/29/the-dynamics-of-coffee-extraction/",
+          "reliability": "中高 · 物理学家写的 TDS vs EY 机制与同浓度不同萃取率的思想实验；部分动力学模型未与实验全面对照"
+        },
+        {
+          "label": "Jonathan Gagné · Measuring and Reporting Extraction Yield（Coffee ad Astra，2019-02-17）",
+          "url": "https://coffeeadastra.com/2019/02/17/measuring-and-reporting-extraction-yields/",
+          "reliability": "中高 · 渗滤/浸泡下如何从 TDS 算萃取率、液体滞留比；公式细节偏进阶，日常冲煮不必逐项复算"
+        },
+        {
+          "label": "Barista Hustle · The Coffee Compass（2021）",
+          "url": "https://www.baristahustle.com/coffee-compass/",
+          "reliability": "中高 · 把「加减粉水（浓度）」和「加减萃取」拆成可操作指南；基于行业经验与教学，不是单篇受控实验"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. Right side: a smiling gooseneck kettle and flat-bottom dripper on a scale, with a simple two-axis chart vignette (vertical arrow as a thick line for strength/concentration, horizontal arrow for extraction) made of coffee beans and water droplets as cartoon characters standing on the axes. Empty upper-left and center for speech bubbles. No text in the image.",
+      "image_alt": "右边一只微笑的鼠尾草绿手冲壶和平底滤杯坐在秤上；旁边用咖啡豆和水滴小人摆成简单的两轴示意图（纵轴浓度、横轴萃取）。左侧大片奶油色纸面留白给气泡。",
+      "bubbles": [
+        {
+          "text": "浓和萃够\n是一回事？",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "浓度看 TDS\n**萃取看 EY**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "冲煮控制图两轴（大致）",
+        "steps": [
+          {"label": "低 EY · 偏酸", "color": "#D9BE55"},
+          {"label": "浓度 · TDS", "color": "#9CAF94"},
+          {"label": "高 EY · 偏苦", "color": "#5B4636"}
+        ]
+      },
+      "try_big": "分清两轴",
+      "image": "images/2026-10-14.png",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（父进程 GenerateImage）"
     }
   ],
   "beans": [
@@ -730,7 +796,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><b>今日课 RT1</b>：粉水比 30:350 = 1:11.7，比手冲常见 1:15–1:17 浓。配方仍不改。测准总时间；尝的时候分清「浓」和「偏酸」。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><b>今日课 EX3</b>：浓度（TDS）≠ 萃取率（EY）。粉水比偏浓会推高浓度；研磨与总时间主要推萃取率。配方仍不改。测准总时间；热着喝时分清「糊口的浓」和「两侧尖的偏酸」。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -1117,6 +1183,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-14",
+      "items": [
+        "推送 Morning Gradient 第 10 课 EX3「TDS 与萃取率」（来源：SCA/UC Davis Towards a New Brewing Chart、Coffee ad Astra Dynamics + Measuring EY、Barista Hustle Coffee Compass）。",
+        "配图：images/2026-10-14.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。新增观察：分清浓度（TDS）与萃取率（EY）两轴。"
+      ]
+    },
     {
       "date": "2026-10-13",
       "items": [
