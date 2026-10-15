@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -775,6 +775,81 @@ window.LR_DATA = {
       "image": "images/2026-10-14.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（父进程 GenerateImage）"
+    },
+    {
+      "date": "2026-10-15",
+      "code": "WA1",
+      "branch": "水",
+      "level": "入门",
+      "lesson_no": 11,
+      "title": "水里的矿物质",
+      "summary": "水不是「就是水」。硬度（GH，主要是钙和镁）帮水把风味分子带出来；碱度（KH，主要是碳酸氢根）会中和杯里的酸。碱度太高，杯子会发闷、发苦、变平；硬度太低，杯子容易空、偏酸。SCA 一类的目标大致是碱度约 40 ppm as CaCO3、硬度落在可冲区。你喜欢低酸、丝滑饱满——今天先分清这两轴，配方不动，明天再谈纽约自来水。",
+      "body": "**两轴：硬度 vs 碱度。** 硬度（GH / total hardness）≈ 水里钙（Ca²⁺）和镁（Mg²⁺）的量。Barista Hustle 写得很直：这些带双正电的离子，和肥皂起反应的那股力，也参与把咖啡里的风味分子拽出来。碱度（alkalinity，常测成 KH）≈ 碳酸氢根（HCO₃⁻）的缓冲能力——它会中和咖啡酸。SCA 合作稿里写：氢碳酸盐太高，会和细腻的咖啡酸反应，杯子变得 unbalanced、bitter、flat；多数人更偏好偏软、碳酸硬度偏低的水。\n\n**别把碱度当成 pH。** SCA 25 Issue 9（Wellinger）强调：在接近中性的区间里，碱度对杯里可滴定酸、进而对「酸感」的影响，远大于 pH 读数本身。Coffee ad Astra 也把碱度窄目标（约 40 ppm as CaCO₃）排在钙硬度（约 17–85 ppm as CaCO₃，对应较旧的 SCAA 表）前面：碱度过高会盖住芳香酸。测水时若只能测一个，他建议优先测 KH。\n\n**你的杯子。** Giant Steps 是深烘拼配，你又偏好低酸、丝滑饱满。碱度过高会把本来就不多的酸质压平，苦和闷更容易冒出来——这和第 2 杯放凉后「苦浮出来」不是同一机制，但方向一致：别再叠一层「水把酸掐死」。硬度太低则杯子容易空、尖。今天不换水、不调配方：S3 6.6 / 93 °C / 30:350，先把总时间测准进 3:00–3:15，舌头只负责分清「尖酸」和「被缓冲后的平」。明天 WA2 再谈纽约自来水能不能冲。",
+      "takeaways": [
+        "硬度（Ca / Mg）提味；碱度（HCO₃⁻）调酸——两轴，不是「水硬不硬」一句话。",
+        "碱度过高 → 发闷、发苦、变平；多数人更偏好偏软水（SCA partner / Coffee ad Astra）。",
+        "今天配方与水源都不动。测准总时间；热着喝时分清尖酸 vs 被缓冲后的平。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。心里记两轴：硬度提味，碱度调酸。\n2. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。\n3. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n4. 滴滤结束记下计时器读数（目标总时间 **3:00–3:15**）。\n5. 热着小口尝：酸是「尖」还是已被水「压平」？醇厚度够不够丝滑？今天只观察，不改水。",
+      "sources": [
+        {
+          "label": "SCA · Water and the Taste of Coffee（partner / BRITA organoleptic，citing Wellinger & Water for Coffee）",
+          "url": "https://sca.coffee/sca-news/news-from-our-partners/water-and-the-taste-of-coffee-ay9gh",
+          "reliability": "高 · SCA 刊载的合作稿；明确 HCO₃⁻ 缓冲酸、过高则 flat/bitter，并归纳多数人偏好偏软水"
+        },
+        {
+          "label": "Marco Wellinger · Water and Coffee Acidity（SCA 25 Magazine Issue 9）",
+          "url": "https://sca.coffee/sca-news/25/issue-9/english/water-and-coffee-acidity-how-to-adapt-your-water-for-different-extraction-methods-25-magazine-issue-9-pxjby",
+          "reliability": "高 · SCA 刊载的 ZHAW 水化学稿；说明碱度对杯酸的影响远大于 pH，并讨论滤杯 vs 意式比例"
+        },
+        {
+          "label": "Jonathan Gagné · Water for Coffee Extraction（Coffee ad Astra，2018-12-16）",
+          "url": "https://coffeeadastra.com/2018/12/16/water-for-coffee-extraction/",
+          "reliability": "中高 · 梳理 SCA/SCAA 目标区间（碱度≈40、钙硬度约 17–85 ppm as CaCO₃）与高碱度盖酸机制；部分配方对照未做全面盲测"
+        },
+        {
+          "label": "Barista Hustle · Water Hardness（2020-09-19）",
+          "url": "https://www.baristahustle.com/water-hardness/",
+          "reliability": "中高 · 讲清 GH=Ca+Mg、KH/碱度缓冲酸、过高发平；教学稿，非单篇受控感官实验"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. Right side: smiling gooseneck kettle and flat-bottom dripper; small cartoon mineral characters — calcium/magnesium hardness ions pulling flavor notes from coffee grounds, and a bicarbonate buffer character gently toning down sharp acid sparks. Empty upper-left and center for speech bubbles. No text in the image.",
+      "image_alt": "右边一只微笑的鼠尾草绿手冲壶和平底滤杯；旁边有钙/镁硬度小人从咖啡粉里拽出风味，碳酸氢根缓冲小人把尖酸火花调柔。左侧奶油色纸面留白给气泡。",
+      "bubbles": [
+        {
+          "text": "水就是水？",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "硬度提味\n**碱度调酸**",
+          "x": 3,
+          "y": 40,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "水的两轴（大致）",
+        "steps": [
+          {
+            "label": "碱度低 · 酸更尖",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "硬度 · 提味",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "碱度高 · 发闷",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "硬度碱度",
+      "image": "images/2026-10-15.png",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（父进程 GenerateImage）"
     }
   ],
   "beans": [
@@ -796,7 +871,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><b>今日课 EX3</b>：浓度（TDS）≠ 萃取率（EY）。粉水比偏浓会推高浓度；研磨与总时间主要推萃取率。配方仍不改。测准总时间；热着喝时分清「糊口的浓」和「两侧尖的偏酸」。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><b>今日课 WA1</b>：硬度（Ca/Mg）提味，碱度（HCO₃⁻）调酸。配方与水源都不改。测准总时间；热着喝时分清「尖酸」和「被缓冲后的平」。明天 WA2 谈纽约自来水。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -1183,6 +1258,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-15",
+      "items": [
+        "推送 Morning Gradient 第 11 课 WA1「水里的矿物质」（来源：SCA Water and the Taste of Coffee、SCA 25/9 Wellinger、Coffee ad Astra Water for Coffee Extraction、Barista Hustle Water Hardness）。",
+        "配图：images/2026-10-15.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。新增观察：分清硬度与碱度两轴；新闻无值得说的。"
+      ]
+    },
     {
       "date": "2026-10-14",
       "items": [
