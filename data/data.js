@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -766,9 +766,18 @@ window.LR_DATA = {
       "gradient": {
         "label": "冲煮控制图两轴（大致）",
         "steps": [
-          {"label": "低 EY · 偏酸", "color": "#D9BE55"},
-          {"label": "浓度 · TDS", "color": "#9CAF94"},
-          {"label": "高 EY · 偏苦", "color": "#5B4636"}
+          {
+            "label": "低 EY · 偏酸",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "浓度 · TDS",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "高 EY · 偏苦",
+            "color": "#5B4636"
+          }
         ]
       },
       "try_big": "分清两轴",
@@ -850,6 +859,81 @@ window.LR_DATA = {
       "image": "images/2026-10-15.png",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（父进程 GenerateImage）"
+    },
+    {
+      "date": "2026-10-16",
+      "code": "WA2",
+      "branch": "水",
+      "level": "入门",
+      "lesson_no": 12,
+      "title": "纽约自来水能冲吗",
+      "summary": "能冲。NYC DEP 2025 年报：硬度平均约 32 mg/L as CaCO₃（约 18–100），碱度平均约 25（约 16–72）。对照 SCA 一类目标（碱度约 40、钙硬度约 17–85），纽约水偏软、碱度略低，但落在可冲区。不用急着上 RO。今天配方仍不动，先把总时间测准；若氯味烦，冷水静置过夜或碳滤就行。",
+      "body": "**结论先说：纽约自来水能冲手冲。** DEP《2025 Drinking Water Supply and Quality Report》分布系统取样：硬度 18–100 mg/L as CaCO₃，平均 32；碱度 16–72，平均 25；钙平均约 9 mg/L、镁约 2.4 mg/L；游离余氯平均约 0.6 mg/L；pH 平均约 7.3。2025 年 Catskill/Delaware 约 91%、Croton 约 9%。DEP FAQ 也写：Cat/Del 偏软或略硬，Croton 中等硬；全市平均硬度大约 1.8 grain/gallon。\n\n**对照昨天的两轴。** Coffee ad Astra 归纳的 SCA 目标大致是：碱度贴近 40 ppm as CaCO₃，钙硬度约 17–85 ppm as CaCO₃。纽约平均硬度 32 落在可冲区偏软一侧；平均碱度 25 比「约 40」略低——缓冲少一点，酸质更容易露出来。你喜欢低酸、丝滑饱满，又在喝深烘拼配 Giant Steps：碱度略低不等于「必须换水」，只是杯子可能比 SCA 靶心水稍尖一点。别把「能喝」和「靶心水」混成一件事。\n\n**实操，不折腾。** 配方与水源都不改：S3 6.6 / 93 °C / 30:350，先把总时间测进 3:00–3:15。若闻到氯味，冷水静置过夜或过一遍活性炭滤壶即可（会去掉氯，硬度/碱度大体还在）。不要用离子交换软水器把硬度换没——那会把昨天说的「硬度提味」轴砍掉。公寓楼管线偶尔会让你家水龙头和全市平均不一样；真要精调，再用 GH/KH 试纸测自己厨房的冷水。养豆已第 30 天，香气会更淡，这和水是另一件事。",
+      "takeaways": [
+        "DEP 2025：硬度均约 32、碱度均约 25 mg/L as CaCO₃——偏软可冲，不是「必须 RO」。",
+        "碱度略低于 SCA≈40 → 缓冲少，酸质更容易露；深烘 + 你偏好低酸，先观察，不急换水。",
+        "氯味：静置过夜或碳滤。别用软水器抽空硬度。配方仍不动，先测准总时间。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。用厨房冷水龙头的水（别用热水龙头）。\n2. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计。\n3. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n4. 滴滤结束记下计时器读数（目标总时间 **3:00–3:15**）。\n5. 热着小口尝：酸是「尖」还是「平」？醇厚度够不够丝滑？今天只观察水源，不改研磨。",
+      "sources": [
+        {
+          "label": "NYC DEP · 2025 Drinking Water Supply and Quality Report",
+          "url": "https://www.nyc.gov/assets/dep/downloads/pdf/water/drinking-water/drinking-water-supply-quality-report/2025-drinking-water-supply-quality-report.pdf",
+          "reliability": "高 · 官方年报；硬度/碱度/钙镁/余氯为分布系统实测范围与均值"
+        },
+        {
+          "label": "NYC DEP · Drinking Water FAQs（硬度与水源）",
+          "url": "https://www.nyc.gov/site/dep/water/drinking-water-frequently-asked-questions.page",
+          "reliability": "高 · 官方说明 Cat/Del 偏软、Croton 中等硬及全市平均硬度"
+        },
+        {
+          "label": "Jonathan Gagné · Water for Coffee Extraction（Coffee ad Astra）",
+          "url": "https://coffeeadastra.com/2018/12/16/water-for-coffee-extraction/",
+          "reliability": "中高 · 归纳 SCA 碱度≈40、钙硬度约 17–85 ppm as CaCO₃；部分配方对照未全面盲测"
+        },
+        {
+          "label": "Barista Hustle · Water Hardness",
+          "url": "https://www.baristahustle.com/water-hardness/",
+          "reliability": "中高 · 讲清 GH/碱度与萃取、缓冲；教学稿，非单篇受控感官实验"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. Right side: smiling NYC water tower pouring into a gooseneck kettle beside a flat-bottom dripper. Empty upper-left for speech bubbles. No text in the image.",
+      "image_alt": "右边一只微笑的纽约水塔往鼠尾草绿手冲壶里倒水，旁边是平底滤杯；左侧奶油色纸面留白给气泡。",
+      "bubbles": [
+        {
+          "text": "纽约水\n能冲吗？",
+          "x": 3,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "能。偏软\n**先测准时间**",
+          "x": 3,
+          "y": 42,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "纽约水 vs 靶心（大致）",
+        "steps": [
+          {
+            "label": "碱度偏低 · 酸更易露",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "硬度约 32 · 可冲",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "别软化抽空",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "能冲",
+      "image": "images/2026-10-16.png",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（GenerateImage）"
     }
   ],
   "beans": [
@@ -871,7 +955,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><b>今日课 WA1</b>：硬度（Ca/Mg）提味，碱度（HCO₃⁻）调酸。配方与水源都不改。测准总时间；热着喝时分清「尖酸」和「被缓冲后的平」。明天 WA2 谈纽约自来水。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 WA2</b>：纽约自来水能冲。DEP 2025 硬度均约 32、碱度均约 25 mg/L as CaCO₃，偏软可冲，碱度略低于 SCA≈40。配方与水源都不改。测准总时间；氯味可静置或碳滤，别用软水器抽空硬度。明天 PO2 谈分段注水与流速。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -1258,6 +1342,14 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-16",
+      "items": [
+        "推送 Morning Gradient 第 12 课 WA2「纽约自来水能冲吗」（来源：NYC DEP 2025 水质年报、DEP Drinking Water FAQs、Coffee ad Astra Water for Coffee Extraction、Barista Hustle Water Hardness）。",
+        "配图：images/2026-10-16.png（方向 A 水彩插画）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15。Giant Steps 养豆第 30 天；新闻无值得说的。"
+      ]
+    },
     {
       "date": "2026-10-15",
       "items": [
