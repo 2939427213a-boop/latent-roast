@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-17",
+    "updated": "2026-10-18",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -1004,6 +1004,81 @@ window.LR_DATA = {
       "image": "",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加（GenerateImage）"
+    },
+    {
+      "date": "2026-10-18",
+      "code": "GR3",
+      "branch": "研磨",
+      "level": "进阶",
+      "lesson_no": 14,
+      "title": "细粉与均匀度",
+      "summary": "研磨不是一个粒径，而是一整组粒径分布：同一刻度仍会同时产生细粉与较大颗粒。细粉贡献很大表面积，也会改变粉床阻力。2024 年 espresso 实验发现：细粉比例增加会降低渗透性、拉长萃取时间，但并未发现高细粉样品必然更难喝——所以「细粉越少越好」「磨得越细一定越苦」都过度简化。均匀度的价值是减少颗粒间萃取差异、让配方更可控，不是追求零细粉。你的 S3 是锥刀、Giant Steps 是深烘且已养到第 32 天，本来就会偏多细粉；今天配方不动，先把总时间测准，再观察粉里有没有明显大小差异。",
+      "body": "**刻度不是一个数，是一条分布。** Coffee ad Astra 把一杯手冲想成：每一种粒径各自冲出一小杯，再混进你的杯子。分布宽，就相当于很多萃取不足的颗粒和一些萃取过度的细粉叠在一起。高品质磨豆机的意义，是把这条分布收窄，让平均萃取率可以推得更高，还不至于先被干涩拖垮。\n\n**细粉主要改的是渗透性。** 2024 年 *Scientific Reports*（Smrke 等）在 espresso 里系统加细粉（<100 µm）：细粉越多，粉床渗透性越低、流速越慢、总时间越长；但对萃取效率的额外贡献似乎不大。感官上，他们也没看到「细粉多 = 一定难喝」。结论限于压力萃取条件，不能直接抄到手冲的克数——但机制可以借：手冲里细粉同样会堵滤纸孔隙、拖慢滴滤，也会贡献更大表面积。\n\n**细粉不是越少越好。** Scott Rao 的「适中」说：细粉太多，局部堵死 → 通道 → 干涩；细粉太少，颗粒之间空隙过大 → 水走捷径，同样会把涩味大分子带出来。锥刀一般比平刀产更多细粉；深烘、偏干的豆也更容易碎出细粉。你的 Timemore S3 + Giant Steps（深烘拼配，养豆第 32 天）正好落在「细粉偏多」这一侧——这不是故障，是起点。\n\n**放回你的杯子。** 第 1 杯 S3 7.0、总时间约 2:30，偏酸单薄；第 2 杯 6.6、约 3:45 但没按 Timer。还没测准真实总时间之前，不要为了「去细粉」去筛粉或换磨——那会一次动好几个变量。今天只做两件事：按 Timer 把总时间测进 3:00–3:15；磨完粉看一眼分布，建立直觉。",
+      "takeaways": [
+        "同一刻度 = 细粉 + 主峰 + 大颗粒的混合；杯里是它们的平均。",
+        "细粉主要降低渗透性、拖慢流速；2024 espresso 实验未证明「细粉多必然难喝」。",
+        "适中的细粉让空隙更均匀；过少或过多都可能带来干涩。S3 锥刀 + 深烘 Day 32 → 细粉偏多是常态。"
+      ],
+      "try_today": "1. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。\n2. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计，不是每段持续多久。\n3. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n4. 磨完粉后捏一点在白纸上看一眼：有没有像面粉一样的细粉，和像粗海盐的大颗粒混在一起？不用筛、不用另做一杯——只是建立「分布」的直觉。\n5. 第 4 段注完轻摇滤杯整平粉床。滴滤结束记下计时器读数（目标总时间 **3:00–3:15**）。热着小口尝：酸是尖还是圆？有没有干涩？",
+      "sources": [
+        {
+          "label": "Smrke et al. · The role of fines in espresso extraction dynamics（Scientific Reports, 2024）",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10920694/",
+          "reliability": "高 · 同行评审原始实验；结论限于所测 espresso 条件，不能直接当手冲定量结论"
+        },
+        {
+          "label": "Jonathan Gagné · How to Brew Better Coffee with a V60 · Grind Size and Uniformity（Coffee ad Astra, 2018）",
+          "url": "https://coffeeadastra.com/2018/11/30/brewing-better-coffee/",
+          "reliability": "中高 · 物理学家博客；粒径分布图与「杯是多种粒径的混合平均」机制写得清楚"
+        },
+        {
+          "label": "Scott Rao · The happy medium amount of fines（2023）",
+          "url": "https://www.scottrao.com/blog/happymediumfines",
+          "reliability": "中高 · 经验推测 + 引用 Gagné；提出细粉过少/过多都会带来涩感的「适中」说"
+        },
+        {
+          "label": "Barista Hustle · The Grinder Paper: Explained（2017）",
+          "url": "https://www.baristahustle.com/the-grinder-paper-explained/",
+          "reliability": "中高 · 解读 Scientific Reports 研磨论文；细粉贡献绝大部分表面积"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. A smiling Timemore-style conical hand grinder pours mixed-size grounds onto white paper — tiny flour-like fines mixed with larger coarse-salt particles, some cute faces. Smiling flat-bottom dripper and gooseneck kettle lower right. Large empty upper-left/top-center for speech bubbles. No text in the image.",
+      "image_alt": "微笑的手摇磨豆机把大小不一的咖啡粉倒在白纸上，细粉和大颗粒混在一起；右下角是微笑的平底滤杯和手冲壶；左上留白给气泡。",
+      "bubbles": [
+        {
+          "text": "细粉是不是\n越少越好？",
+          "x": 8,
+          "y": 4,
+          "tail": "left"
+        },
+        {
+          "text": "先看**分布**\n别急着筛",
+          "x": 52,
+          "y": 18,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "细粉量（大致）",
+        "steps": [
+          {
+            "label": "太少 · 空隙大",
+            "color": "#D9BE55"
+          },
+          {
+            "label": "适中 · 空隙匀",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "太多 · 易堵易涩",
+            "color": "#5B4636"
+          }
+        ]
+      },
+      "try_big": "看分布",
+      "image": "",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩；气泡由网页叠加。本回合 executor 无 cursor GenerateImage，图留空占位。"
     }
   ],
   "beans": [
@@ -1025,7 +1100,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 PO2</b>：分段注水与流速。推水往下走的是粉床上方的水重；段间水位落底，流速变慢、萃取更不均。配方不改，只练每段细流稳注、下一段前不露床，并按 Timer 测准总时间。明天 GR3 谈细粉与均匀度。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 GR3</b>：细粉与均匀度。同一刻度是一条粒径分布，不是一个数；细粉主要改渗透性，不是「越少越好」。S3 锥刀 + 深烘 Day 32 细粉偏多是常态。配方不改，磨完粉看一眼分布，并按 Timer 测准总时间。明天 OR1 谈咖啡带与主要产区。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -1412,6 +1487,15 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-18",
+      "items": [
+        "推送 Morning Gradient 第 14 课 GR3「细粉与均匀度」（来源：Scientific Reports 2024 fines in espresso、Coffee ad Astra Grind Size and Uniformity、Scott Rao happy medium fines、Barista Hustle The Grinder Paper Explained）。",
+        "配图：本回合 GenerateImage 不可用，image 留空（占位）；昨日 PO2 同理无图。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15；新增观察「磨完粉看一眼粒径分布」。",
+        "Giant Steps 养豆第 32 天，约 280 g（340−30−30）。新闻：近 48 小时内无特别值得说的（夏威夷联邦咖啡研究项目昨日已提）。"
+      ]
+    },
     {
       "date": "2026-10-17",
       "items": [
