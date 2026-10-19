@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-18",
+    "updated": "2026-10-19",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -1079,6 +1079,81 @@ window.LR_DATA = {
       "image": "",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩；气泡由网页叠加。本回合 executor 无 cursor GenerateImage，图留空占位。"
+    },
+    {
+      "date": "2026-10-19",
+      "code": "OR1",
+      "branch": "产区",
+      "level": "入门",
+      "lesson_no": 15,
+      "title": "咖啡带与主要产区",
+      "summary": "「咖啡带」是南北回归线之间那一圈，但真正画出边界的是温度，不是纬度。阿拉比卡最适年均约 18–21 °C，怕霜冻，也怕长期 30 °C 上下的高温。赤道附近太热，所以好咖啡多长在热带高地，用海拔换凉爽。你的 Giant Steps 来自乌干达、巴布亚新几内亚和苏门答腊，三个都贴着赤道。",
+      "body": "**带子是温度画出来的。** NOAA 的整理说，阿拉比卡占全球咖啡产量约 70%，最适温度 18–21 °C，年均最多能忍到约 24 °C。再热，果实成熟会加快，品质反而下降；长期 30 °C 上下会伤树。CIAT 与 World Coffee Research 的研究（Bunn 等，PLOS ONE 2015）给的经济门槛是：年均约 20 °C、年降雨 1200 mm 以上；霜冻几天就能冻伤甚至冻死植株。所以「回归线之间」只是粗框。他们统计，北纬 30° 到南纬 33° 这一大圈里，真正适合阿拉比卡的土地只占约 7.2%。\n\n**赤道附近靠海拔降温。** 同一研究里，适合阿拉比卡的土地海拔中位数约 1024 m。最稳定的一类叫「恒温型」：几乎没有季节温差，海拔中位数约 1575 m，集中在哥伦比亚、埃塞俄比亚、肯尼亚和印尼这类赤道高地。巴西南部在热带边缘，季节温差大，要防霜。海拔为什么改变风味，明天 OR2 细讲。\n\n**「产区味」是一个打包。** 气候、品种、处理法会一起写进豆子。Kenneth Davids（Coffee Review）认为，苏门答腊那种醇厚度高、酸低的性格，更多来自当地特殊的处理和分段干燥，而不只是土壤和气候。处理法在 10/21 的 PR1 讲。\n\n**放回你的杯子。** Giant Steps 是乌干达、巴布亚新几内亚、苏门答腊的有机拼配，再烘到深烘，本来就是冲着低酸、厚重去的。所以第 1 杯的偏酸，更可能是萃取不足（总时间 2:30），不是产地的问题。今天配方仍不改，先把第 3 杯的总时间测准。",
+      "takeaways": [
+        "咖啡带的真正边界是温度：阿拉比卡最适约 18–21 °C，怕霜冻，也怕长期 30 °C 上下。",
+        "赤道附近用海拔换凉爽：适合的土地海拔中位数约 1024 m，最稳定的「恒温型」高地约 1575 m。",
+        "产区味 = 气候 + 品种 + 处理法。Giant Steps（乌干达 + 巴新 + 苏门答腊，深烘）天生偏低酸厚重；偏酸先查萃取。"
+      ],
+      "try_today": "1. 冲之前看一眼豆袋：上面写了哪些产地？和「乌干达、巴布亚新几内亚、苏门答腊」一致吗？记一句。\n2. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。\n3. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计，不是每段持续多久。\n4. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n5. 滴滤结束记下计时器读数（目标总时间 **3:00–3:15**）。热着小口喝：是巧克力、可可那种低沉的味道多，还是酸多？",
+      "sources": [
+        {
+          "label": "NOAA Climate.gov · Climate & Coffee（2015，Kew 的 Aaron Davis 审阅）",
+          "url": "https://www.climate.gov/news-features/climate-and/climate-coffee",
+          "reliability": "高 · 美国政府气候机构科普，经植物学家审阅；温度数字有出处"
+        },
+        {
+          "label": "Bunn et al. · Multiclass Classification of Agro-Ecological Zones for Arabica Coffee（PLOS ONE, 2015）",
+          "url": "https://doi.org/10.1371/journal.pone.0140490",
+          "reliability": "高 · 同行评审，CIAT 与 World Coffee Research 合作；基于 3545 个阿拉比卡产地格点"
+        },
+        {
+          "label": "Kenneth Davids · Sumatra Coffees（Coffee Review, 1998）",
+          "url": "https://www.coffeereview.com/sumatras/",
+          "reliability": "中 · 资深杯测师的实地观察与观点，年代较早；「处理法决定苏门答腊性格」是他的判断，不是实验结论"
+        },
+        {
+          "label": "Good Eggs · Blue Bottle Giant Steps 商品页",
+          "url": "https://www.goodeggs.com/bluebottlecoffeessfbay/giant-steps-coffee-beans/5b7f30310d3d20000fa71123",
+          "reliability": "中 · 第三方零售页转述 Blue Bottle 的产地信息；Blue Bottle 官网今天拒绝访问，未能直接核对"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. A hand-drawn globe with a soft green band around the middle between the tropics (the coffee belt), cute smiling coffee cherry plants dotted along the band. Lower right: a smiling kraft coffee bag holding a magnifying glass and a smiling pour-over dripper look up at the globe. Large empty upper-left/top-center for speech bubbles. No text in the image.",
+      "image_alt": "手绘地球仪，中间绕着一条绿色的咖啡带，带上有一排微笑的咖啡果苗；右下角是拿着放大镜的牛皮纸豆袋和微笑的手冲滤杯，抬头看着地球；左上留白给气泡。",
+      "bubbles": [
+        {
+          "text": "咖啡为什么\n只长在这一圈？",
+          "x": 6,
+          "y": 6,
+          "tail": "left"
+        },
+        {
+          "text": "不是纬度\n是**温度**",
+          "x": 60,
+          "y": 8,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "年均温度（阿拉比卡）",
+        "steps": [
+          {
+            "label": "太冷 · 怕霜冻",
+            "color": "#9CB3C4"
+          },
+          {
+            "label": "约 18–21 °C · 最适",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "太热 · 熟太快",
+            "color": "#C8794A"
+          }
+        ]
+      },
+      "try_big": "看产地",
+      "image": "",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩已生成，但图片文件今天没有落到 box 上，image 先留空（占位）。"
     }
   ],
   "beans": [
@@ -1087,7 +1162,7 @@ window.LR_DATA = {
       "name": "Giant Steps",
       "roaster": "Blue Bottle",
       "type": "拼配 · 偏深烘",
-      "notes": "巧克力、厚重",
+      "notes": "巧克力、厚重 · 产地：乌干达、巴布亚新几内亚、苏门答腊（有机拼配）",
       "roastDate": "2026-09-16"
     }
   ],
@@ -1100,7 +1175,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 GR3</b>：细粉与均匀度。同一刻度是一条粒径分布，不是一个数；细粉主要改渗透性，不是「越少越好」。S3 锥刀 + 深烘 Day 32 细粉偏多是常态。配方不改，磨完粉看一眼分布，并按 Timer 测准总时间。明天 OR1 谈咖啡带与主要产区。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 OR1</b>：咖啡带与主要产区。咖啡带的边界是温度（阿拉比卡最适约 18–21 °C），赤道附近靠海拔降温。Giant Steps 来自乌干达、巴布亚新几内亚、苏门答腊，深烘，天生偏低酸厚重，所以偏酸先查萃取。配方不改，按 Timer 测准总时间。明天 OR2 讲海拔与风味。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -1487,6 +1562,16 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-19",
+      "items": [
+        "推送 Morning Gradient 第 15 课 OR1「咖啡带与主要产区」（来源：NOAA Climate.gov Climate & Coffee、Bunn 等 PLOS ONE 2015、Coffee Review Sumatra Coffees、Good Eggs Giant Steps 商品页）。",
+        "配图：已生成，但文件没落到 box 上，image 留空（占位）。",
+        "豆子卡补上 Giant Steps 产地：乌干达、巴布亚新几内亚、苏门答腊。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15；新增观察「看豆袋上的产地」。",
+        "Giant Steps 养豆第 33 天，约 280 g（340−30−30）。新闻：Sprudge 报道西西里已能小量种出阿拉比卡（气候变暖的副作用）；2027 年 7 项世界咖啡大赛的时间地点全部敲定（世界手冲大赛和杯测赛在波哥大）。"
+      ]
+    },
     {
       "date": "2026-10-18",
       "items": [
