@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-19",
+    "updated": "2026-10-20",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -1154,6 +1154,81 @@ window.LR_DATA = {
       "image": "",
       "tag": "",
       "illustration_note": "方向 A 手绘水彩已生成，但图片文件今天没有落到 box 上，image 先留空（占位）。"
+    },
+    {
+      "date": "2026-10-20",
+      "code": "OR2",
+      "branch": "产区",
+      "level": "入门",
+      "lesson_no": 16,
+      "title": "海拔与风味",
+      "summary": "海拔本身不加风味，它改的是温度：越往上越凉，咖啡果熟得越慢，种子有更多时间存糖和风味前体，豆子也往往更致密。但「多高才算高」要看纬度：赤道附近要 1000–2000 m 才够凉，离赤道远的地方几百米就够。研究还显示，海拔的效果常被遮荫和处理法改写，不是一条直线。",
+      "body": "**海拔是温度的代号。** Barista Hustle 引用农学家 Leonardo Henao：白天约 17–23 °C 时，阿拉比卡的代谢和往种子里存糖最顺；在热带，这个温度多半要到海拔 1000–2000 m 才有。巴西农场主 Luiz Saldanha 说得更直接：高海拔本身不是品质的原因，降温才是。白天光合作用，夜里低温让代谢放慢，糖和有机酸才存得住。\n\n**熟得慢，存得多。** Worku 等（Food Research International 2018，埃塞俄比亚 1150–1820 m、108 个样本）在引言里总结：低温拉长果实成熟期，风味前体积累更多。他们测到：每升高 100 m，绿原酸约少 1.23 g/kg，咖啡因约少 0.12 g/kg；蔗糖随海拔增加，但只在水洗豆里显著；酸质只在遮荫种植时随海拔上升。Hu 等（Foods 2024，云南普洱 930–1520 m）发现：越高，坚果、烘烤类香气越少，焦糖、甜香越多；杯测的酸质和醇厚度几乎不随海拔变。\n\n**同一个数字，要配纬度读。** Saldanha 的农场在南纬 23.25°，只有 600–750 m，靠秋冬降温；他说同样 600 m 放在赤道附近的哥伦比亚，完全是另一回事。\n\n**放回你的杯子。** Giant Steps 的三个产地（乌干达、巴布亚新几内亚、苏门答腊）都贴着赤道，得靠海拔降温。但我今天打开的来源都没有给出这三处的具体海拔，所以不报数字。深烘会盖掉不少产地差别；对你要的低酸、丝滑、柔和，烘焙度和萃取比海拔更直接。配方仍不改，先把第 3 杯的总时间测准。",
+      "takeaways": [
+        "海拔是温度的代号：热带要 1000–2000 m 才有白天约 17–23 °C。凉 → 果实熟得慢 → 种子存的糖和风味前体更多，豆子往往更致密。",
+        "海拔要配纬度读：离赤道越远，降到同样温度需要的海拔越低。同样 600 m，在回归线附近和在赤道附近完全不同。",
+        "海拔不是一条直线：埃塞俄比亚研究里蔗糖只在水洗豆里随海拔显著增加、酸质只在遮荫时上升；普洱研究里酸质和醇厚度几乎不变。想要低酸柔和，先看烘焙度和萃取。"
+      ],
+      "try_today": "1. 早上冲。下午不喝咖啡（10/2 下午那杯让你熬到凌晨 2 点）。\n2. 冲之前看豆袋：有没有写海拔（m 或 masl）？有就记下数字；没有就记「没写」。\n3. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C。\n4. 先按秤上的 Timer 键，看到读数在走再开始。下面的时间都是计时器读数（开始时刻），从按下 Timer 开始累计，不是每段持续多久。\n5. 0:00 开始闷蒸，注到 60 g。0:40 开始第 2 段，注到 150 g。1:10 开始第 3 段，注到 250 g。1:40 开始第 4 段，注到 350 g。\n6. 滴滤结束记下计时器读数（目标总时间 **3:00–3:15**）。热着小口喝：焦糖、可可那种甜和低沉多，还是酸多？",
+      "sources": [
+        {
+          "label": "Worku et al. · Effect of altitude on biochemical composition and quality of green arabica coffee beans can be affected by shade and postharvest processing method（Food Research International, 2018）",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0963996917307858",
+          "reliability": "高 · 同行评审，108 个埃塞俄比亚样本，给出每 100 m 的量化变化；今天只读到摘要、引言和部分正文预览"
+        },
+        {
+          "label": "Hu et al. · The Growing Altitude Influences the Flavor Precursors, Sensory Characteristics and Cupping Quality of the Pu’er Coffee Bean（Foods, 2024）",
+          "url": "https://doi.org/10.3390/foods13233842",
+          "reliability": "中高 · 同行评审开放全文；但只采了一个村、5 个海拔点、单一品种，作者自己承认样本少"
+        },
+        {
+          "label": "Barista Hustle · T 1.03 Altitude and Latitude — Interview with Willem Boot",
+          "url": "https://www.baristahustle.com/lesson/t-1-03-altitude-and-latitude-a-balancing-act/",
+          "reliability": "中高 · 专业咖啡教育平台，引用文献和农学家；访谈里「酸随海拔升高」是 Boot 的推测，他说自己没测过"
+        },
+        {
+          "label": "Barista Hustle · T 1.03.1 Coffee Farming at High Latitudes — Interview with Luiz Roberto Saldanha",
+          "url": "https://www.baristahustle.com/lesson/t-1-03-1-coffee-farming-at-high-latitudes-interview-with-luiz-roberto-saldanha/",
+          "reliability": "中 · 一线农场主兼 Q Grader 的经验观点；「降温才是原因」「越高豆子越致密」没有附数据"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. A misty mountain summit with a calm, smiling coffee cherry resting in cool fog; below, a sleepy, sweaty coffee cherry lounging in a warm sunny valley; a winding path connects them down the slope. Bottom-right: a curious pour-over dripper character looking up the mountain. Large empty space upper-left / top-center for speech bubbles. No text in the image.",
+      "image_alt": "手绘水彩山景：雾气缭绕的山顶上，一颗神情安静、微笑的咖啡果；山下阳光很暖的山谷里，一颗昏昏欲睡的咖啡果；一条弯弯的小路连着上下。右下角一只好奇的手冲滤杯抬头看山；左上留白给气泡。",
+      "bubbles": [
+        {
+          "text": "同样是咖啡果\n山顶和山谷差在哪？",
+          "x": 5,
+          "y": 5,
+          "tail": "left"
+        },
+        {
+          "text": "**凉**一点\n熟得**慢**一点",
+          "x": 44,
+          "y": 6,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "热带海拔与成熟（大致）",
+        "steps": [
+          {
+            "label": "低海拔 · 热 · 熟得快",
+            "color": "#C8794A"
+          },
+          {
+            "label": "约 1000–2000 m · 白天约 17–23 °C",
+            "color": "#9CAF94"
+          },
+          {
+            "label": "太高 · 太冷 · 怕霜冻",
+            "color": "#9CB3C4"
+          }
+        ]
+      },
+      "try_big": "看海拔",
+      "image": "",
+      "tag": "",
+      "illustration_note": "方向 A 手绘水彩已生成，但图片文件今天没有落到 box 上，image 先留空（占位）。"
     }
   ],
   "beans": [
@@ -1175,7 +1250,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 OR1</b>：咖啡带与主要产区。咖啡带的边界是温度（阿拉比卡最适约 18–21 °C），赤道附近靠海拔降温。Giant Steps 来自乌干达、巴布亚新几内亚、苏门答腊，深烘，天生偏低酸厚重，所以偏酸先查萃取。配方不改，按 Timer 测准总时间。明天 OR2 讲海拔与风味。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 OR2</b>：海拔与风味。海拔是温度的代号：越高越凉，果实熟得越慢，种子存的糖和风味前体更多。但要配纬度读，效果也会被遮荫和处理法改写。Giant Steps 三个产地都贴着赤道，具体海拔今天没查到可靠数字。深烘 + 你要低酸柔和，烘焙度和萃取比海拔更直接。配方不改，按 Timer 测准总时间。冲之前看一眼豆袋上有没有写海拔。明天 PR1 讲处理法。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -1562,6 +1637,15 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-20",
+      "items": [
+        "推送 Morning Gradient 第 16 课 OR2「海拔与风味」（来源：Worku 等 Food Research International 2018、Hu 等 Foods 2024、Barista Hustle T 1.03 Willem Boot、Barista Hustle T 1.03.1 Luiz Saldanha）。",
+        "配图：已生成，但文件没落到 box 上，image 留空（占位）。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15；新增观察「看豆袋上有没有写海拔」。",
+        "Giant Steps 养豆第 34 天，约 280 g（340−30−30）。新闻：「100% Kona」造假案追加 4 项联邦税务指控，审判可能推迟；Roast 杂志公布 2027 年度烘焙商（Dessert Oasis、Utopian Coffee）。"
+      ]
+    },
     {
       "date": "2026-10-19",
       "items": [
