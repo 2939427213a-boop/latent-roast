@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -1674,6 +1674,88 @@ window.LR_DATA = {
       "try_big": "平",
       "image": "images/2026-10-26.png",
       "tag": ""
+    },
+    {
+      "date": "2026-10-27",
+      "code": "RO3",
+      "branch": "烘焙与养豆",
+      "level": "进阶",
+      "lesson_no": 23,
+      "title": "豆子怎么存",
+      "summary": "烘好的豆子变老，主要靠两件事：香气分子自己跑掉，和空气里的氧把它们氧化掉。袋子一开，里面保护豆子的二氧化碳和氮气很快被空气换掉，所以存豆的本质是少碰空气、保持凉，而且别让冷豆子沾上水汽。",
+      "body": "**袋子一开，保护层就没了。** 烘焙商把豆子装进充氮、带单向排气阀的袋子，豆子自己还在放二氧化碳，袋里几乎没有氧。苏黎世应用科技大学（ZHAW）Smrke 等人 2022 年的研究测了开袋后的袋内气体：把豆子倒进密封罐，或者开袋后用胶带封口，不到一周袋里的氧就升到和空气一样的 21%，二氧化碳几乎归零。用夹子或螺旋盖好一点，但开袋后氧也超过 10%，约两周后同样接近空气。代表新鲜香气的甲硫醇，开袋 8 周后只剩约 15%。\n\n**一个反直觉的结果。** 那项研究里表现最差的，恰恰是“倒进密封罐”。原因是倒的那一下，罐子里装满了空气；“密封”只防后来的空气进来，挡不住已经在里面的。所以容器要贴着豆子的量，或者干脆留在原袋里，每次把空气挤出去再封紧。\n\n**冷冻为什么有用。** 化学反应和分子扩散都随温度变慢。宾州州立大学 Cotter 和 Hopfer 2018 年的实验把豆子放在 −18 °C 冷冻柜里 9 周、不去动它：深烘豆闻起来和刚烘的几乎分不出来，室温放 9 周的深烘豆则被消费者明显分开。浅烘豆三种条件差别都小。深烘豆香气分子多、掉得也多，所以更值得冻。\n\n**冻豆的坑是水汽。** 咖啡豆会吸水和吸味（NCA）。冷豆子一碰到暖空气，表面就结露。所以要分小份、真正密封；拿出来那份先别开袋，等它回到室温再打开，剩下的别反复进出冰箱。\n\n**放回你的豆子。** Giant Steps 今天养豆第 41 天，一直放在室温，已经过了最香的时候，冷冻也找不回散掉的香气，只能保住剩下的。还剩约 280 g，差不多 9 杯。",
+      "takeaways": [
+        "豆子变老 = 香气跑掉 + 被氧化。开袋后保护用的二氧化碳和氮气很快被空气换掉。",
+        "“密封”挡不住已经装进去的空气：容器贴着豆量，或留在原袋里挤掉空气再封。",
+        "冷冻能保住深烘豆的香气，前提是小份密封、回到室温再开袋，避免结露。"
+      ],
+      "try_today": "1. 早上冲，下午不喝咖啡。\n2. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C，目标总时间 **3:00–3:15**。还没有第 3 杯的数据，所以不改变量。\n3. 先按秤上的 Timer 键，看到读数在走再注水。下面每段写的是计时器读数（从按下 Timer 累计）：每段一开始就注水，注到目标克数后就等，等到下一段的开始时刻。\n   - 0:00–0:40 闷蒸：开头约 10 秒绕圈注到 60 g，然后等。\n   - 0:40–1:10 第 2 段：注到 150 g，然后等。\n   - 1:10–1:40 第 3 段：注到 250 g，然后等。\n   - 1:40 起第 4 段：注到 350 g，然后等滴滤结束，记下总时间。\n4. 称完豆子，把袋里的空气挤出去再封紧，放进远离炉灶和阳光的柜子里。\n5. 想冻的话：把剩下的豆子按 30 g 一份装进小密封袋，挤掉空气放进冷冻。喝之前取一份，先别开袋，等袋子回到室温、外面没有水珠再打开。",
+      "sources": [
+        {
+          "label": "Smrke, Adam, Mühlemann, Lantz, Yeretzian (2022) · Effects of different coffee storage methods on coffee freshness after opening of packages · Food Packaging and Shelf Life 33:100893",
+          "url": "https://digitalcollection.zhaw.ch/server/api/core/bitstreams/78b612ba-7578-4046-a3dd-4be48a182fcd/content",
+          "reliability": "高 · 同行评审论文（ZHAW 咖啡研究团队），用 GC/MS 和袋内气体实测四种开袋后的存法；只测化学，没做感官"
+        },
+        {
+          "label": "Cotter & Hopfer (2018) · The Effects of Storage Temperature on the Aroma of Whole Bean Arabica Coffee · Beverages 4, 68",
+          "url": "https://pdfs.semanticscholar.org/8bd4/1bf1ce023711868490b4db72c58b68b33bb0.pdf",
+          "reliability": "高 · 同行评审论文，48 位消费者盲闻 + GC-MS；只闻粉没喝，样本 6 种"
+        },
+        {
+          "label": "Penn State News (2019) · Research shows freezing beans can preserve aroma",
+          "url": "https://www.psu.edu/news/research/story/wake-and-smell-coffee-research-shows-freezing-beans-can-preserve-aroma",
+          "reliability": "中高 · 大学官方对上面论文的报道，补充了研究背景"
+        },
+        {
+          "label": "NCA · Storage and shelf life",
+          "url": "https://www.aboutcoffee.org/beans/storage-and-shelf-life/",
+          "reliability": "中高 · 美国国家咖啡协会科普页，给出冷冻防结露的实操建议；不是研究论文"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. A half-full coffee bean bag character with a one-way valve squeezes air out of itself on a kitchen counter, looking relieved; a grumpy little oxygen cloud is shooed away; below, small sealed portion bags of beans nap in a frosty freezer drawer. Empty space upper-left for speech bubbles. No text.",
+      "image_alt": "手绘水彩：柜台上一袋带排气阀的咖啡豆正用双手挤出袋里的空气，旁边一朵气鼓鼓的小氧气云被赶走；下面打开的冷冻抽屉里，几小袋分装好的豆子在安静地睡觉。左上留白给气泡。",
+      "bubbles": [
+        {
+          "text": "开了袋，\n香气就开始跑",
+          "x": 5,
+          "y": 5,
+          "tail": "left"
+        },
+        {
+          "text": "**挤掉空气**\n分小份冻起来",
+          "x": 8,
+          "y": 42,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "开袋后豆子是怎么变老的",
+        "steps": [
+          {
+            "label": "刚开袋：充氮护着",
+            "color": "#C9D3C0"
+          },
+          {
+            "label": "空气进来",
+            "color": "#A9BC9A"
+          },
+          {
+            "label": "香气分子跑掉",
+            "color": "#C4A26A"
+          },
+          {
+            "label": "被氧化",
+            "color": "#8A5A3C"
+          },
+          {
+            "label": "杯里：平、闷",
+            "color": "#4A2A20"
+          }
+        ]
+      },
+      "try_big": "封",
+      "image": "images/2026-10-27.png",
+      "tag": ""
     }
   ],
   "beans": [
@@ -1695,7 +1777,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 EX4</b>：通道效应。又酸又苦常常是同一杯里有的粉萃取过度、有的萃取不足。配方不改，先冲出第 3 杯；滴滤结束后看一眼粉床平不平。如果有坑洞或干区，下次改就是把闷蒸加到 90 g。明天 RO3 讲豆子怎么存。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 RO3</b>：豆子怎么存。开袋后保护用的二氧化碳和氮气很快被空气换掉，所以每次称完要挤掉空气再封紧；想冻就按 30 g 分小份密封，回到室温再开袋。配方仍不改，先冲出第 3 杯。明天 MA1 讲滤杯和手冲壶的日常清洁。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -2082,6 +2164,15 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-27",
+      "items": [
+        "推送 Morning Gradient 第 23 课 RO3「豆子怎么存」（来源：Smrke 等 2022 Food Packaging and Shelf Life；Cotter & Hopfer 2018 Beverages；Penn State 2019 报道；NCA 存储页）。",
+        "配图：方向 A 手绘水彩，images/2026-10-27.png。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15；新增称豆后挤空气封袋、可选 30 g 分装冷冻。",
+        "Giant Steps 养豆第 41 天，约 280 g。新闻：DiFluid 推出 RS Extract 折射仪（4–65 °C 直接测 TDS）。"
+      ]
+    },
     {
       "date": "2026-10-26",
       "items": [
