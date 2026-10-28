@@ -9,7 +9,7 @@ window.LR_DATA = {
   "meta": {
     "title": "Latent Roast",
     "subtitle": "豪力的咖啡数据实验室",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "location": "纽约 · 海拔 0 ft"
   },
   "curriculum": {
@@ -1756,6 +1756,88 @@ window.LR_DATA = {
       "try_big": "封",
       "image": "images/2026-10-27.png",
       "tag": ""
+    },
+    {
+      "date": "2026-10-28",
+      "code": "MA1",
+      "branch": "器具维护",
+      "level": "入门",
+      "lesson_no": 24,
+      "title": "滤杯与手冲壶的日常清洁",
+      "summary": "手冲器具上的脏东西其实有两种：一种来自咖啡，是油；一种来自水，是水垢。油要靠洗洁精和热水洗掉，放久了会氧化发哈喇；水垢是矿物，要靠弱酸溶掉。分清是哪一种，才知道该用什么洗。",
+      "body": "**第一种：咖啡油。** 豆子烘焙时，里面的油脂被带到表面，冲煮时这些油会贴在滤杯、分享壶和壶嘴上。意式维修商 Espresso Engineers 的维护说明里写，这层油氧化得很快，大约 12–18 小时就会出现哈喇味，残留会给下一杯带来苦和陈的味道。这说的是意式冲煮头，温度更高，但油会氧化这件事在手冲器具上一样成立。油不溶于清水，所以只冲水去不掉，要用洗洁精这类表面活性剂。\n\n**第二种：水垢。** 水一加热，里面的钙、镁就会析出，主要成分是碳酸钙，看起来像壶底白色或像锈的斑点。Fellow 官方说明讲得很清楚：这是加热水必然会有的，出现快慢取决于你的水有多硬。水垢多了，温度读数会变慢、不准，加热效率变差。对一杯咖啡来说，这意味着你设的 93 °C 可能不是真的 93 °C。水垢是碱性矿物，所以要用弱酸溶：白醋或柠檬酸。\n\n**所以要对症。** 洗洁精对付油，酸对付水垢，互相替代不了。还有一个共同的规矩：不要用钢丝球或硬刷。Fellow 说刮伤内壁反而会让水垢更容易附着，甚至生锈。\n\n**放回你的器具。** Blue Bottle 陶瓷滤杯有 40 条内壁棱，粉和油容易卡在棱里；官方建议手洗，用洗碗机就放上层。Stagg EKG Pro 只装清水，壶身和底座都不能泡水、不能进洗碗机；Fellow 建议至少每月清洁一次。你上一杯是 10/3，器具已经放了快四周，冲第 3 杯前先洗一遍，杯里尝到的才是豆子本身。",
+      "takeaways": [
+        "器具上的脏东西分两种：咖啡油（来自豆子，会氧化发哈喇）和水垢（来自水，是矿物）。",
+        "油用洗洁精和热水洗，只冲清水去不掉；水垢用白醋或柠檬酸溶，洗洁精对它没用。",
+        "滤杯手洗、棱里刷干净；手冲壶只装清水、不泡水、不用钢丝球，至少每月清洁一次。"
+      ],
+      "try_today": "1. 早上冲，下午不喝咖啡。\n2. 冲之前先洗器具：滤杯和分享壶用温水加一点无香味洗洁精、软海绵洗，滤杯的棱和出水孔周围多刷两下，用热水冲到没有泡沫和洗洁精味。\n3. 打开 Stagg EKG Pro 的盖子看壶底：有白色或像锈的斑点，就先除垢（见第 6 步），今天不急可以改天做。\n4. 配方不变：S3 刻度 6.6 / 粉重 30 g / 水量 350 g / 93 °C，目标总时间 **3:00–3:15**。还没有第 3 杯的数据，所以不改变量。\n5. 先按秤上的 Timer 键，看到读数在走再注水。下面每段写的是计时器读数（从按下 Timer 累计）：每段一开始就注水，注到目标克数后就等，等到下一段的开始时刻。\n   - 0:00–0:40 闷蒸：开头约 10 秒绕圈注到 60 g，然后等。\n   - 0:40–1:10 第 2 段：注到 150 g，然后等。\n   - 1:10–1:40 第 3 段：注到 250 g，然后等。\n   - 1:40 起第 4 段：注到 350 g，然后等滴滤结束，记下总时间。\n6. 冲完马上倒掉滤纸和粉，趁滤杯还热用热水冲一遍。需要除垢时：500 mL 水加 2 勺柠檬酸（或白醋和水各半），在壶里煮开，放至少 30 分钟，倒掉，用清水冲净，再烧一壶清水倒掉。",
+      "sources": [
+        {
+          "label": "Fellow 帮助中心 · How do I clean, maintain and descale my Fellow electric kettle?",
+          "url": "https://help.fellowproducts.com/hc/en-us/articles/115001707911-How-do-I-clean-maintain-and-descale-my-Fellow-electric-kettle",
+          "reliability": "高 · 手冲壶厂商官方说明：每月清洁、不泡水不进洗碗机、水垢成因和柠檬酸 / 白醋除垢比例"
+        },
+        {
+          "label": "Fellow · Stagg EKG Pro and Pro Studio Edition Gear Guide",
+          "url": "https://fellowproducts.com/pages/gear-guide-stagg-ekg",
+          "reliability": "高 · 厂商官方页，和你的壶同型号；只装清水，钢丝球会让水垢更严重"
+        },
+        {
+          "label": "Blue Bottle Coffee · Blue Bottle Coffee Dripper（产品页 Care Instructions）",
+          "url": "https://bluebottlecoffee.com/us/eng/product/blue-bottle-coffee-dripper",
+          "reliability": "高 · 滤杯厂商官方：40 条内壁棱、建议手洗、洗碗机放上层"
+        },
+        {
+          "label": "Espresso Engineers · Daily Cleaning of Filters and Filter holders",
+          "url": "https://espressoengineers.com/tips-and-training/care-information/daily-cleaning-of-filters-and-filter-holders",
+          "reliability": "中 · 意式设备维修商的维护说明，讲咖啡油氧化（约 12–18 小时）带来苦和哈喇味；针对意式冲煮头，不是同行评审研究"
+        }
+      ],
+      "illustration_prompt": "Hand-drawn sketchbook comic, black ink with soft sage-green and cream watercolor on cream paper #F4EEE1. 16:9. At a kitchen sink, a cheerful green ceramic pour-over dripper character is rinsed under a warm tap and hugs a soft yellow sponge; a glass server dries on a rack. Beside it, a sleepy matte black gooseneck kettle character holds a small bowl with lemon and citric acid crystals, white limescale flakes on the counter. Empty space upper-left for speech bubbles. No text.",
+      "image_alt": "手绘水彩：水槽边，一个绿色陶瓷滤杯在温水下抱着黄色海绵笑着洗澡，旁边玻璃分享壶在沥水架上晾干；右边一把睡眼惺忪的黑色细嘴手冲壶捧着一碗柠檬和柠檬酸，脚边散着白色水垢屑。左上留白给气泡。",
+      "bubbles": [
+        {
+          "text": "油和水垢，\n不是一种脏",
+          "x": 5,
+          "y": 5,
+          "tail": "left"
+        },
+        {
+          "text": "**油用洗洁精**\n水垢用柠檬酸",
+          "x": 36,
+          "y": 5,
+          "tail": "left"
+        }
+      ],
+      "gradient": {
+        "label": "器具上的两种脏东西",
+        "steps": [
+          {
+            "label": "咖啡油：来自豆子",
+            "color": "#C4A26A"
+          },
+          {
+            "label": "氧化：发哈喇",
+            "color": "#8A5A3C"
+          },
+          {
+            "label": "→ 洗洁精 + 热水",
+            "color": "#A9BC9A"
+          },
+          {
+            "label": "水垢：来自水",
+            "color": "#E8E1D0"
+          },
+          {
+            "label": "→ 柠檬酸 / 白醋",
+            "color": "#C9D3C0"
+          }
+        ]
+      },
+      "try_big": "洗",
+      "image": "images/2026-10-28.png",
+      "tag": ""
     }
   ],
   "beans": [
@@ -1777,7 +1859,7 @@ window.LR_DATA = {
     "grind": "6.6",
     "grindPrev": "6.6",
     "target": "3:00–3:15",
-    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 RO3</b>：豆子怎么存。开袋后保护用的二氧化碳和氮气很快被空气换掉，所以每次称完要挤掉空气再封紧；想冻就按 30 g 分小份密封，回到室温再开袋。配方仍不改，先冲出第 3 杯。明天 MA1 讲滤杯和手冲壶的日常清洁。",
+    "why": "<b>第 2 杯结果</b>（2026-10-03，养豆第 17 天）：S3 6.6 / 93 °C / 30 g : 350 g。总时间约 3:45。这是估计值，因为没有按 Timer。总时间偏长，原因是注水操作，不是研磨。豪力的评分是 5.5–6 / 10。<br><br><b>热的时候</b>：酸感仍明显，但入口顺了很多。咽下后不回酸。尾韵偏醇厚。这杯不明亮，也不算美味。<br><br><b>放凉后</b>（放到午饭后）：入口很浓。酸感仍在。苦味浮出来了，热的时候尝不出。原因有三个。第一，咖啡变凉后，甜感变弱，压不住苦味。第二，绿原酸内酯会慢慢分解成奎宁酸。奎宁酸又酸又涩。第三，变凉会暴露萃取不均或萃取过度。深烘豆变凉后更容易发苦。请趁热喝。<br><br><b>香气</b>：整豆、研磨后和杯里的香气都弱，像普通热美式，比新鲜挂耳还弱。原因有两个。第一，深烘拼配的香气本来就内敛。第二，到养豆第 17 天，挥发性香气已经随 CO₂ 散失，并且氧化了。挂耳每包都充氮密封，所以香气留在包里，打开时一次释放。<br><br><b>品鉴技巧</b>：用舌尖小口喝，然后直接咽下。这样尝到的酸感少很多。<br><br><b>下次改</b>：这一杯不改研磨，只把计时做准。S3 保持 6.6。先按 Timer，再严格按下面注水表的开始时刻注水。测出真实总时间。目标是 3:00–3:15。<br><br><br><br><b>今日课 MA1</b>：滤杯与手冲壶的日常清洁。咖啡油用洗洁精洗，水垢用柠檬酸或白醋溶，两者不能互相替代。器具放了快四周，冲第 3 杯前先把滤杯和分享壶洗一遍，看看壶底有没有水垢。配方仍不改。明天 MA2 讲除垢与磨豆机清洁。",
     "prep": [
       "S3 归零：把外圈顺时针转到底，让“0”对准红标。",
       "把外圈<b>逆时针转到 6.6</b>。（不归零也可以：从 7.0 顺时针调细 4 格。）",
@@ -2164,6 +2246,15 @@ window.LR_DATA = {
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-28",
+      "items": [
+        "推送 Morning Gradient 第 24 课 MA1「滤杯与手冲壶的日常清洁」（来源：Fellow 帮助中心清洁除垢说明；Fellow Stagg EKG Pro Gear Guide；Blue Bottle 滤杯产品页；Espresso Engineers 维护说明）。",
+        "配图：方向 A 手绘水彩，images/2026-10-28.png。",
+        "今日冲煮计划仍是第 3 杯：S3 6.6 / 93 °C / 30:350 / 目标总时间 3:00–3:15；新增冲前洗滤杯和分享壶、检查壶底水垢。",
+        "Giant Steps 养豆第 42 天，约 280 g。新闻：Perfect Daily Grind 讲高端拼配；Daily Coffee News 报道翻面拍照的 AI 生豆瑕疵检测原型。"
+      ]
+    },
     {
       "date": "2026-10-27",
       "items": [
